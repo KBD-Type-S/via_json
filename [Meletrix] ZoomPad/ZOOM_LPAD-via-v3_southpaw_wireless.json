@@ -1,0 +1,94 @@
+{
+    "name": "ZOOM LPAD",
+    "vendorId": "0x1EA7",
+    "productId": "0xCBA0",
+    "keycodes": ["qmk_lighting"],
+    "menus": ["qmk_rgblight"],	
+    "matrix": {
+        "rows": 6,
+        "cols": 5
+    },
+  "customKeycodes": [
+    {"name": "Mission Control", "title": "F3 Mission Control in macOS", "shortName": "Mission Control"},
+    {"name": "Launch Pad", "title": "F4 Launch Pad in macOS", "shortName": "Launch Pad"},
+    {"name": "Task View", "title": "F3 Task View in windows", "shortName": "Task View"},
+    {"name": "File Explorer", "title": "F4 File Explorer in windows", "shortName": "File Explorer"},
+    {"name": "Win Mode", "title": "Working in Windows", "shortName": "Win Mode"},
+    {"name": "Mac Mode", "title": "Working in macOS", "shortName": "Mac Mode"},
+    {"name": "Lamp Test", "title": "Led Lamp Test", "shortName": "Lamp Test"},
+    {"name": "Deep Sleep", "title": "Keyboard into Deep Sleep", "shortName": "Deep Sleep"},
+    {"name": "Out Usb", "title": "Keyboard data output USB", "shortName": "Out Usb"},
+    {"name": "Bluetooth 1", "title": "Bluetooth working connection 1", "shortName": "BT 1"},
+    {"name": "Bluetooth 2", "title": "Bluetooth working connection 2", "shortName": "BT 2"},
+    {"name": "Bluetooth 3", "title": "Bluetooth working connection 3", "shortName": "BT 3"},
+	{"name": "TOGG GUI", "title": "Toggle gui", "shortName": "TG_GUI"},
+	{"name": "OUT RF", "title": "Keyboard data output RF 2.4G", "shortName": "OUT RF"}
+  ],
+    "layouts": {
+        "keymap": [
+            [    
+                {
+                    "w": 0.8
+                },			
+			    "0,4",
+                {
+                    "w": 0.8
+                },	              
+			    "0,3",
+                {
+                    "w": 0.8
+                },					
+                "1,4",			
+                "0,0",
+                "0,1",
+                "0,2"
+            ],
+            [
+                {
+					"x": 1.4,
+                    "y": 0.2
+                },
+                "1,3",
+				"1,2",
+				"1,1",
+				"1,0"
+            ],
+            [
+                {
+					"x": 1.4,					
+                    "h": 2
+                },
+                "2,3",			
+                "2,0",
+                "2,1",
+                "2,2"
+            ],
+            [
+			    {
+					"x": 2.4					
+                },			
+                "3,0",
+                "3,1",
+                "3,2"
+            ],
+            [
+			    {
+					"x": 1.4,					
+                    "h": 2
+                },
+                "5,3",
+                "4,0",
+                "4,1",
+                "4,2"
+            ],
+            [
+                {
+					"x": 2.4,					
+                    "w": 2
+                },
+                "5,1",
+                "5,2"
+            ]
+        ]
+    }
+}
