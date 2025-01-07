@@ -1,0 +1,4321 @@
+{
+  "name": "vento_RGB625",
+  "vendorId": "0x4321",
+  "productId": "0x0016",
+  "customKeycodes": [
+    {
+      "name": "Wins\nFN",
+      "title": "Windows\u7cfb\u7edfFn\u952e",
+      "shortName": "Wins\nFN"
+    },
+    {
+      "name": "MAC\nFN",
+      "title": "MACOS\u7cfb\u7edfFn\u952e",
+      "shortName": "MAC\nFN"
+    },
+    {
+      "name": "\u7f1d\u9699\u706f\n\u5f00\u5173",
+      "title": "\u7f1d\u9699\u706f\u5f00\u5173",
+      "shortName": "\u7f1d\u9699\u706f\n\u5f00\u5173"
+    },
+    {
+      "name": "\u8f74\u706f\n\u5f00\u5173",
+      "title": "\u8f74\u706f\u5f00\u5173",
+      "shortName": "\u8f74\u706f\n\u5f00\u5173"
+    },
+    {
+      "name": "\u6307\u793a\u706f\u5f00\u5173",
+      "title": "\u6307\u793a\u706f\u5f00\u5173(\u5173\u5168\u5c40\u706f\u5149\u540e\u662f\u5426\u6b63\u5e38\u4eae\u8d77)",
+      "shortName": "\u6307\u793a\u706f\n\u5f00\u5173"
+    },
+    {
+      "name": "\u706f\u6548\u540c\u6b65",
+      "title": "\u6240\u6709\u706f\u5149\u6548\u679c\u540c\u6b65",
+      "shortName": "\u706f\u5149\n\u540c\u6b65"
+    },
+    {
+      "name": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u706f\u6548",
+      "title": "\u5207\u6362\u4e0b\u4e00\u4e2a\u706f\u6548\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u5207\u6362\u4e0a\u4e00\u4e2a\u706f\u6548",
+      "shortName": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u706f\u6548"
+    },
+    {
+      "name": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u8272\u8c03",
+      "title": "\u8272\u8c03\u589e\u52a0\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u8272\u8c03\u51cf\u5c11",
+      "shortName": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u8272\u8c03"
+    },
+    {
+      "name": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u9971\u548c\u5ea6",
+      "title": "\u9971\u548c\u5ea6\u589e\u52a0\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u9971\u548c\u5ea6\u51cf\u5c11",
+      "shortName": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u9971\u548c\u5ea6"
+    },
+    {
+      "name": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u4eae\u5ea6",
+      "title": "\u4eae\u5ea6\u589e\u52a0\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u4eae\u5ea6\u51cf\u5c11",
+      "shortName": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u4eae\u5ea6"
+    },
+    {
+      "name": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u901f\u5ea6",
+      "title": "\u901f\u5ea6\u589e\u52a0\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u901f\u5ea6\u51cf\u5c11",
+      "shortName": "\u7f1d\u9699\u706f\n\u6761\u706f\n\u901f\u5ea6"
+    },
+    {
+      "name": "NUM\u5f00\u5173",
+      "title": "NUM\u6307\u793a\u706f\u5f00\u5173",
+      "shortName": "NUM\u5f00\u5173"
+    },
+    {
+      "name": "CAPS\u5f00\u5173",
+      "title": "CAPS\u6307\u793a\u706f\u5f00\u5173",
+      "shortName": "CAPS\u5f00\u5173"
+    },
+    {
+      "name": "SCR\u5f00\u5173",
+      "title": "SCR\u6307\u793a\u706f\u5f00\u5173",
+      "shortName": "SCR\u5f00\u5173"
+    },
+    {
+      "name": "\u6307\u793a\u706f\n\u706f\u73e0",
+      "title": "\u5207\u6362\u4e0b\u4e00\u4e2a\u706f\u73e0\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u5207\u6362\u4e0a\u4e00\u4e2a\u706f\u73e0",
+      "shortName": "\u6307\u793a\u706f\n\u706f\u73e0"
+    },
+    {
+      "name": "\u6307\u793a\u706f\n\u706f\u6548",
+      "title": "\u5207\u6362\u4e0b\u4e00\u4e2a\u706f\u6548\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u5207\u6362\u4e0a\u4e00\u4e2a\u706f\u6548",
+      "shortName": "\u6307\u793a\u706f\n\u706f\u6548"
+    },
+    {
+      "name": "\u6307\u793a\u706f\n\u8272\u8c03",
+      "title": "\u8272\u8c03\u589e\u52a0\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u8272\u8c03\u51cf\u5c11",
+      "shortName": "\u6307\u793a\u706f\n\u8272\u8c03"
+    },
+    {
+      "name": "\u6307\u793a\u706f\n\u9971\u548c\u5ea6",
+      "title": "\u9971\u548c\u5ea6\u589e\u52a0\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u9971\u548c\u5ea6\u51cf\u5c11",
+      "shortName": "\u6307\u793a\u706f\n\u9971\u548c\u5ea6"
+    },
+    {
+      "name": "\u6307\u793a\u706f\n\u4eae\u5ea6",
+      "title": "\u4eae\u5ea6\u589e\u52a0\uff0c\u6309\u4f4f\u0073\u0068\u0069\u0074\u0066\u4e3a\u4eae\u5ea6\u51cf\u5c11",
+      "shortName": "\u6307\u793a\u706f\n\u4eae\u5ea6"
+    },
+    {
+      "name": "SOCD\u5f00\u5173",
+      "title": "\u5207\u6362SOCD\u5f00\u5173\u72b6\u6001",
+      "shortName": "SOCD\u5f00\u5173"
+    },
+    {
+      "name": "SOCD\u5173\u95ed",
+      "title": "SOCD\u5173\u95ed",
+      "shortName": "SOCD\u5173\u95ed"
+    },
+    {
+      "name": "SOCD\u5f00\u542f",
+      "title": "SOCD\u5f00\u542f",
+      "shortName": "SOCD\u5f00\u542f"
+    },
+    {
+      "name": "RT\u5f00\u5173",
+      "title": "\u5207\u6362RT\u5f00\u5173\u72b6\u6001",
+      "shortName": "RT\u5f00\u5173"
+    },
+    {
+      "name": "RT\u5173\u95ed",
+      "title": "RT\u5173\u95ed",
+      "shortName": "RT\u5173\u95ed"
+    },
+    {
+      "name": "RT\u5f00\u542f",
+      "title": "RT\u5f00\u542f",
+      "shortName": "RT\u5f00\u542f"
+    },
+    {
+      "name": "\u6309\u952e\u8fde\u53d1\u5f00\u5173",
+      "title": "\u5207\u6362\u6309\u952e\u8fde\u53d1\u5f00\u5173\u72b6\u6001",
+      "shortName": "\u6309\u952e\u8fde\u53d1\u5f00\u5173"
+    },
+    {
+      "name": "\u6309\u952e\u8fde\u53d1\u5173\u95ed",
+      "title": "\u6309\u952e\u8fde\u53d1\u5173\u95ed",
+      "shortName": "\u6309\u952e\u8fde\u53d1\u5173\u95ed"
+    },
+    {
+      "name": "\u6309\u952e\u8fde\u53d1\u5f00\u542f",
+      "title": "\u6309\u952e\u8fde\u53d1\u5f00\u542f",
+      "shortName": "\u6309\u952e\u8fde\u53d1\u5f00\u542f"
+    },
+    {
+      "name": "Win\u952e\u5f00\u5173",
+      "title": "\u5207\u6362Win\u952e\u7684\u5f00\u5173\u72b6\u6001",
+      "shortName": "Win\u5f00\u5173"
+    },
+    {
+      "name": "\u6e05\u7a7a\u8bbe\u7f6e",
+      "title": "\u8fd8\u539f\u5230\u51fa\u5382\u7684\u9ed8\u8ba4\u8bbe\u7f6e",
+      "shortName": "\u6e05\u7a7a\u8bbe\u7f6e"
+    }
+  ],
+  "keycodes": ["qmk_lighting"],
+  "menus": [
+    {
+      "label": "\u706f\u5149",
+      "content": [
+        {
+          "label": "\u706f\u5149\u8bbe\u7f6e",
+          "content": [
+            {
+              "label": "\u5168\u5c40\u706f\u5149\u5f00\u5173",
+              "type": "toggle",
+              "content": [
+                "id_rgb_matrix_toggle[0]",
+                5,
+                1,
+                0
+              ]
+            },
+            {
+              "label": "\u8f74\u706f\u5f00\u5173",
+              "type": "toggle",
+              "content": [
+                "id_rgb_matrix_toggle[1]",
+                5,
+                1,
+                1
+              ]
+            },
+            {
+              "label": "LOGO\u706f\u5f00\u5173",
+              "type": "toggle",
+              "content": [
+                "id_rgb_matrix_toggle[2]",
+                5,
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u8f74\u706f",
+          "content": [
+            {
+              "label": "\u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_brightness",
+                3,
+                1
+              ]
+            },
+            {
+              "label": "\u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_qmk_rgb_matrix_effect",
+                3,
+                2
+              ],
+              "options": [
+                ["\u5173\u95ed", 0],
+                ["\u9759\u6001\u5355\u8272", 1],
+                ["\u9759\u6001\u53cc\u8272", 2],
+                ["\u9759\u6001\u7eb5\u5411\u6e10\u53d8", 3],
+                ["\u9759\u6001\u6a2a\u5411\u6e10\u53d8", 4],
+                ["\u5355\u8272\u547c\u5438", 5],
+                ["\u80cc\u5149\u6a2a\u5411\u6eda\u52a8", 6],
+                ["\u5355\u8272\u6a2a\u5411\u6eda\u52a8", 7],
+                ["\u80cc\u5149\u98ce\u8f66", 8],
+                ["\u5355\u8272\u98ce\u8f66", 9],
+                ["\u80cc\u5149\u87ba\u65cb", 10],
+                ["\u5355\u8272\u87ba\u65cb", 11],
+                ["\u5f69\u8679\u5faa\u73af", 12],
+                ["\u6a2a\u5411\u5f69\u8679", 13],
+                ["\u7eb5\u5411\u5f69\u8679", 14],
+                ["V\u578b\u5f69\u8679", 15],
+                ["\u5f69\u8679\u6f29\u6da1", 16],
+                ["\u53cc\u91cd\u5f69\u8679\u6f29\u6da1", 17],
+                ["\u5f69\u8679\u98ce\u8f66", 18],
+                ["\u5f69\u8679\u87ba\u65cb", 19],
+                ["\u5f69\u8679\u65cb\u8f6c 1", 20],
+                ["\u5f69\u8679\u65cb\u8f6c 2", 21],
+                ["\u53cc\u91cd\u5f69\u8679\u98ce\u8f66", 22],
+                ["\u96e8\u6ef4 1", 23],
+                ["\u96e8\u6ef4 2", 24],
+                ["\u8272\u76f8\u547c\u5438", 25],
+                ["\u8272\u76f8\u6447\u6446", 26],
+                ["\u8272\u76f8\u6ce2\u6d6a", 27],
+                ["\u50cf\u7d20\u96e8", 28],
+                ["\u50cf\u7d20\u6d41", 29],
+                ["\u50cf\u7d20\u5206\u5f62", 30],
+                ["\u6309\u952e\u70ed\u56fe", 31],
+                ["\u6570\u5b57\u96e8\u6ef4", 32],
+                ["\u5355\u8272\u6309\u952e\u54cd\u5e94", 33],
+                ["\u80cc\u5149\u5355\u8272\u6309\u952e\u54cd\u5e94", 34],
+                ["\u5355\u8272\u8303\u56f4\u54cd\u5e94 1", 35],
+                ["\u5355\u8272\u8303\u56f4\u54cd\u5e94 2", 36],
+                ["\u5355\u8272\u4ea4\u53c9\u54cd\u5e94 1", 37],
+                ["\u5355\u8272\u4ea4\u53c9\u54cd\u5e94 2", 38],
+                ["\u5355\u8272\u5341\u5b57\u54cd\u5e94 1", 39],
+                ["\u5355\u8272\u5341\u5b57\u54cd\u5e94 2", 40],
+                ["\u5f69\u8679\u6d9f\u6f2a\u54cd\u5e94 1", 41],
+                ["\u5f69\u8679\u6d9f\u6f2a\u54cd\u5e94 2", 42],
+                ["\u5355\u8272\u6d9f\u6f2a\u54cd\u5e94 1", 43],
+                ["\u5355\u8272\u6d9f\u6f2a\u54cd\u5e94 2", 44],
+                ["\u5faa\u73af\u547c\u5438", 46],
+                ["\u5faa\u73af\u6a2a\u5411\u6eda\u52a8", 47],
+                ["\u5faa\u73af\u80cc\u5149\u98ce\u8f66", 48],
+                ["\u5faa\u73af\u5355\u8272\u98ce\u8f66", 49],
+                ["\u5faa\u73af\u80cc\u5149\u87ba\u65cb", 50],
+                ["\u5faa\u73af\u5355\u8272\u87ba\u65cb", 51],
+                ["\u53cd\u5411\u6a2a\u5411\u5f69\u8679", 52],
+                ["\u53cd\u5411\u7eb5\u5411\u5f69\u8679", 53],
+                ["\u5f69\u8679\u6d9f\u6f2a", 54],
+                ["\u53cc\u91cd\u5f69\u8679\u6d9f\u6f2a", 55],
+                ["\u5f69\u8679\u50cf\u7d20\u5206\u5f62", 56],
+                ["\u5faa\u73af\u86c7\u5f62\u706f\u6548", 57],
+                ["\u5faa\u73af\u6ce2\u5f62", 58],
+                ["\u5f69\u8679\u6ce2\u5f62 1", 59],
+                ["\u5f69\u8679\u6ce2\u5f62 2", 60],
+                ["\u5faa\u73af\u4ea4\u66ff", 61],
+                ["\u5f69\u8679\u4ea4\u66ff", 62],
+                ["\u5355\u8272\u8dc3\u52a8\u5706\u73af", 63],
+                ["\u5faa\u73af\u8dc3\u52a8\u5706\u73af", 64],
+                ["\u7e41\u82b1\u7efd\u653e", 65],
+                ["\u5f69\u8679\u5f57\u661f", 66],
+                ["\u5f69\u8679\u65cb\u8f6c", 67],
+                ["\u6a2a\u5411\u6447\u6446", 68],
+                ["\u5faa\u73af\u949f\u6446", 69],
+                ["\u5faa\u73af\u6307\u9488", 70],
+                ["\u6a2a\u5411\u5806\u6808", 71],
+                ["\u7eb5\u5411\u5806\u6808", 72],
+                ["\u6a2a\u5411\u5168\u5e45\u6447\u6446", 73],
+                ["\u5355\u8272Z\u53d8\u5316", 74],
+                ["\u5f69\u8679z\u53d8\u5316", 75],
+                ["\u5f69\u8679\u6309\u952e\u54cd\u5e94", 76],
+                ["\u5faa\u73af\u6d9f\u6f2a\u54cd\u5e94", 77],
+                ["\u5faa\u73af\u4ea4\u53c9\u54cd\u5e94", 78],
+                ["\u5faa\u73af\u5341\u5b57\u54cd\u5e94", 79],
+                ["\u5faa\u73af\u8303\u56f4\u54cd\u5e94", 80],
+                ["\u5f69\u8679\u8303\u56f4\u54cd\u5e94", 81],
+                ["\u5f69\u8679\u4ea4\u53c9\u54cd\u5e94", 82],
+                ["\u5f69\u8679\u5341\u5b57\u54cd\u5e94", 83]
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0",
+              "label": "\u901f\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_qmk_rgb_matrix_effect_speed",
+                3,
+                3
+              ]
+            },
+            {
+              "showIf": "{id_qmk_rgb_matrix_effect} != 0 && {id_qmk_rgb_matrix_effect} != 24 && {id_qmk_rgb_matrix_effect} != 28 && {id_qmk_rgb_matrix_effect} != 29 && {id_qmk_rgb_matrix_effect} != 32",
+              "label": "\u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_qmk_rgb_matrix_color",
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "label": "LOGO\u706f",
+          "content": [
+            {
+              "showIf": "{id_underglow_rgb_matrix_effect} != 1",
+              "label": "\u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_underglow_rgb_matrix_brightness",
+                5,
+                2
+              ]
+            },
+            {
+              "label": "\u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_underglow_rgb_matrix_effect",
+                5,
+                3
+              ],
+              "options": [
+                ["\u540c\u6b65\u5168\u5c40", 1],
+                ["\u5355\u8272\u547c\u5438", 2],
+                ["\u5faa\u73af\u547c\u5438", 3],
+                ["\u5faa\u73af\u6a2a\u5411\u6eda\u52a8", 4], 
+                ["\u5faa\u73af\u98ce\u8f66", 5],
+                ["\u5f69\u8679\u5faa\u73af", 6],
+                ["\u6a2a\u5411\u5f69\u8679", 7],
+                ["\u7eb5\u5411\u5f69\u8679", 8],
+                ["\u5f69\u8679\u6f29\u6da1", 9],
+                ["\u5f69\u8679\u6d9f\u6f2a", 10],
+                ["\u5f69\u8679\u98ce\u8f66", 11],
+                ["\u5f69\u8679\u87ba\u65cb", 12],
+                ["\u53d8\u901f\u6a2a\u5411\u5f69\u8679", 13],
+                 ["\u53d8\u901f\u5f69\u8679\u98ce\u8f66", 14],
+                 ["\u53d8\u901f\u5faa\u73af\u547c\u5438", 15],
+                ["\u53d8\u901f\u5f69\u8679\u87ba\u65cb", 16],
+                 ["\u53d8\u901f\u5f69\u8679\u6d9f\u6f2a", 17]
+              ]
+            },
+            {
+              "showIf": "{id_underglow_rgb_matrix_effect} != 1",
+              "label": "\u901f\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_underglow_rgb_matrix_effect_speed",
+                5,
+                4
+              ]
+            },
+            {
+              "showIf": "{id_underglow_rgb_matrix_effect} != 1",
+              "label": "\u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_underglow_rgb_matrix_color",
+                5,
+                5
+              ]
+            }
+          ]
+        },           
+        {
+          "label": "\u6307\u793a\u706f",
+          "content": [
+            {
+              "label": "\u6307\u793a\u706f\u5e38\u4eae",
+              "type": "toggle",
+              "content": [
+                "id_rgb_indicators_override",
+                6,
+                1
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect1} != 0",
+              "label": "Caps Lock \u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_rgb_indicators_brightness[1]",
+                6,
+                2,
+                1
+              ]
+            },
+            {
+              "label": "Caps Lock \u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_effect1",
+                6,
+                3,
+                1
+              ],
+              "options": [
+                ["\u5173\u95ed", 0],
+                ["\u9759\u6001\u5355\u8272", 1],
+                ["\u5355\u8272\u547c\u5438", 2],
+                ["\u5faa\u73af\u547c\u5438", 3],
+                ["\u5f69\u8679\u5faa\u73af", 4],
+                ["\u968f\u673a\u53d8\u6362", 5],
+                ["\u968f\u673a\u8272\u5f69", 6]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect1} != 0",
+              "label": "Caps Lock \u706f\u73e0",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_led[1]",
+                6,
+                5,
+                1
+              ],
+              "options": [
+                ["\u5168\u90e8\u706f\u73e0", 0],
+                ["\u5168\u90e8\u8f74\u706f", 1],
+                ["Logo\u706f", 2],
+                ["Led 0", 4],
+                ["Led 1", 5],
+                ["Led 2", 6],
+                ["Led 3", 7],
+                ["Led 4", 8],
+                ["Led 5", 9],
+                ["Led 6", 10],
+                ["Led 7", 11],
+                ["Led 8", 12],
+                ["Led 9", 13],
+                ["Led 10", 14],
+                ["Led 11", 15],
+                ["Led 12", 16],
+                ["Led 13", 17],
+                ["Led 14", 18],
+                ["Led 15", 19],
+                ["Led 16", 20],
+                ["Led 17", 21],
+                ["Led 18", 22],
+                ["Led 19", 23],
+                ["Led 20", 24],
+                ["Led 21", 25],
+                ["Led 22", 26],
+                ["Led 23", 27],
+                ["Led 24", 28],
+                ["Led 25", 29],
+                ["Led 26", 30],
+                ["Led 27", 31],
+                ["Led 28", 32],
+                ["Led 29", 33],
+                ["Led 30", 34],
+                ["Led 31", 35],
+                ["Led 32", 36],
+                ["Led 33", 37],
+                ["Led 34", 38],
+                ["Led 35", 39],
+                ["Led 36", 40],
+                ["Led 37", 41],
+                ["Led 38", 42],
+                ["Led 39", 43],
+                ["Led 40", 44],
+                ["Led 41", 45],
+                ["Led 42", 46],
+                ["Led 43", 47],
+                ["Caps R", 48],
+                ["Caps L", 49],
+                ["Led 46", 50],
+                ["Led 47", 51],
+                ["Led 48", 52],
+                ["Led 49", 53],
+                ["Led 50", 54],
+                ["Led 51", 55],
+                ["Led 52", 56],
+                ["Led 53", 57],
+                ["Led 54", 58],
+                ["Led 55", 59],
+                ["Led 56", 60],
+                ["Led 57", 61],
+                ["Led 58", 62],
+                ["Led 59", 63],
+                ["Led 60", 64],
+                ["Led 61", 65],
+                ["Led 62", 66],
+                ["Led 63", 67],
+                ["Led 64", 68],
+                ["Led 65", 69],
+                ["Led 66", 70],
+                ["Led 67", 71],
+                ["Led 68", 72],
+                ["Led 69", 73],
+                ["Led 70", 74],
+                ["Led 71", 75],
+                ["Led 72", 76],
+                ["Led 73", 77],
+                ["Led 74", 78],
+                ["Led 75", 79],
+                ["Led 76", 80],
+                ["Led 77", 81],
+                ["Led 78", 82],
+                ["Led 79", 83],
+                ["Led 80", 84],
+                ["Led 81", 85],
+                ["Led 82", 86],
+                ["Led 83", 87],
+                ["Led 84", 88],
+                ["Led 85", 89],
+                ["Led 86", 90],
+                ["Led 87", 91],
+                ["Led 88", 92],
+                ["Led 89", 93],
+                ["Led 90", 94],
+                ["Led 91", 95],
+                ["Led 92", 96],
+                ["Led 93", 97],
+                ["Led 94", 98],
+                ["Led 95", 99],
+                ["Led 96", 100],
+                ["Led 97", 101],
+                ["Led 98", 102],
+                ["Led 99", 103],
+                ["Led 100", 104],
+                ["Led 101", 105],
+                ["Led 102", 106],
+                ["Led 103", 107],
+                ["Led 104", 108]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect1} != 0",
+              "label": "Caps Lock \u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_rgb_indicators_color[1]",
+                6,
+                4,
+                1
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect0} != 0",
+              "label": "Num Lock \u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_rgb_indicators_brightness[0]",
+                6,
+                2,
+                0
+              ]
+            },
+            {
+              "label": "Num Lock \u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_effect0",
+                6,
+                3,
+                0
+              ],
+              "options": [
+                ["\u5173\u95ed", 0],
+                ["\u9759\u6001\u5355\u8272", 1],
+                ["\u5355\u8272\u547c\u5438", 2],
+                ["\u5faa\u73af\u547c\u5438", 3],
+                ["\u5f69\u8679\u5faa\u73af", 4],
+                ["\u968f\u673a\u53d8\u6362", 5],
+                ["\u968f\u673a\u8272\u5f69", 6]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect0} != 0",
+              "label": "Num Lock \u706f\u73e0",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_led[0]",
+                6,
+                5,
+                0
+              ],
+              "options": [
+                ["\u5168\u90e8\u706f\u73e0", 0],
+                ["\u5168\u90e8\u8f74\u706f", 1],
+                ["Logo\u706f", 2],
+                ["Led 0", 4],
+                ["Led 1", 5],
+                ["Led 2", 6],
+                ["Led 3", 7],
+                ["Led 4", 8],
+                ["Led 5", 9],
+                ["Led 6", 10],
+                ["Led 7", 11],
+                ["Led 8", 12],
+                ["Led 9", 13],
+                ["Led 10", 14],
+                ["Led 11", 15],
+                ["Led 12", 16],
+                ["Led 13", 17],
+                ["Led 14", 18],
+                ["Led 15", 19],
+                ["Led 16", 20],
+                ["Led 17", 21],
+                ["Led 18", 22],
+                ["Led 19", 23],
+                ["Led 20", 24],
+                ["Led 21", 25],
+                ["Led 22", 26],
+                ["Led 23", 27],
+                ["Led 24", 28],
+                ["Led 25", 29],
+                ["Led 26", 30],
+                ["Led 27", 31],
+                ["Led 28", 32],
+                ["Led 29", 33],
+                ["Led 30", 34],
+                ["Led 31", 35],
+                ["Led 32", 36],
+                ["Led 33", 37],
+                ["Led 34", 38],
+                ["Led 35", 39],
+                ["Led 36", 40],
+                ["Led 37", 41],
+                ["Led 38", 42],
+                ["Led 39", 43],
+                ["Led 40", 44],
+                ["Led 41", 45],
+                ["Led 42", 46],
+                ["Led 43", 47],
+                ["Caps R", 48],
+                ["Caps L", 49],
+                ["Led 46", 50],
+                ["Led 47", 51],
+                ["Led 48", 52],
+                ["Led 49", 53],
+                ["Led 50", 54],
+                ["Led 51", 55],
+                ["Led 52", 56],
+                ["Led 53", 57],
+                ["Led 54", 58],
+                ["Led 55", 59],
+                ["Led 56", 60],
+                ["Led 57", 61],
+                ["Led 58", 62],
+                ["Led 59", 63],
+                ["Led 60", 64],
+                ["Led 61", 65],
+                ["Led 62", 66],
+                ["Led 63", 67],
+                ["Led 64", 68],
+                ["Led 65", 69],
+                ["Led 66", 70],
+                ["Led 67", 71],
+                ["Led 68", 72],
+                ["Led 69", 73],
+                ["Led 70", 74],
+                ["Led 71", 75],
+                ["Led 72", 76],
+                ["Led 73", 77],
+                ["Led 74", 78],
+                ["Led 75", 79],
+                ["Led 76", 80],
+                ["Led 77", 81],
+                ["Led 78", 82],
+                ["Led 79", 83],
+                ["Led 80", 84],
+                ["Led 81", 85],
+                ["Led 82", 86],
+                ["Led 83", 87],
+                ["Led 84", 88],
+                ["Led 85", 89],
+                ["Led 86", 90],
+                ["Led 87", 91],
+                ["Led 88", 92],
+                ["Led 89", 93],
+                ["Led 90", 94],
+                ["Led 91", 95],
+                ["Led 92", 96],
+                ["Led 93", 97],
+                ["Led 94", 98],
+                ["Led 95", 99],
+                ["Led 96", 100],
+                ["Led 97", 101],
+                ["Led 98", 102],
+                ["Led 99", 103],
+                ["Led 100", 104],
+                ["Led 101", 105],
+                ["Led 102", 106],
+                ["Led 103", 107],
+                ["Led 104", 108]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect0} != 0",
+              "label": "Num Lock \u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_rgb_indicators_color[0]",
+                6,
+                4,
+                0
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect2} != 0",
+              "label": "Scroll Lock \u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_rgb_indicators_brightness[2]",
+                6,
+                2,
+                2
+              ]
+            },
+            {
+              "label": "Scroll Lock \u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_effect2",
+                6,
+                3,
+                2
+              ],
+              "options": [
+                ["\u5173\u95ed", 0],
+        ["\u9759\u6001\u5355\u8272", 1],
+        ["\u5355\u8272\u547c\u5438", 2],
+        ["\u5faa\u73af\u547c\u5438", 3],
+        ["\u5f69\u8679\u5faa\u73af", 4],
+        ["\u968f\u673a\u53d8\u6362", 5],
+        ["\u968f\u673a\u8272\u5f69", 6]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect2} != 0",
+              "label": "Scroll Lock Led",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_led[2]",
+                6,
+                5,
+                2
+              ],
+              "options": [
+                ["\u5168\u90e8\u706f\u73e0", 0],
+                ["\u5168\u90e8\u8f74\u706f", 1],
+                ["Logo\u706f", 2],
+                ["Led 0", 4],
+                ["Led 1", 5],
+                ["Led 2", 6],
+                ["Led 3", 7],
+                ["Led 4", 8],
+                ["Led 5", 9],
+                ["Led 6", 10],
+                ["Led 7", 11],
+                ["Led 8", 12],
+                ["Led 9", 13],
+                ["Led 10", 14],
+                ["Led 11", 15],
+                ["Led 12", 16],
+                ["Led 13", 17],
+                ["Led 14", 18],
+                ["Led 15", 19],
+                ["Led 16", 20],
+                ["Led 17", 21],
+                ["Led 18", 22],
+                ["Led 19", 23],
+                ["Led 20", 24],
+                ["Led 21", 25],
+                ["Led 22", 26],
+                ["Led 23", 27],
+                ["Led 24", 28],
+                ["Led 25", 29],
+                ["Led 26", 30],
+                ["Led 27", 31],
+                ["Led 28", 32],
+                ["Led 29", 33],
+                ["Led 30", 34],
+                ["Led 31", 35],
+                ["Led 32", 36],
+                ["Led 33", 37],
+                ["Led 34", 38],
+                ["Led 35", 39],
+                ["Led 36", 40],
+                ["Led 37", 41],
+                ["Led 38", 42],
+                ["Led 39", 43],
+                ["Led 40", 44],
+                ["Led 41", 45],
+                ["Led 42", 46],
+                ["Led 43", 47],
+                ["Caps R", 48],
+                ["Caps L", 49],
+                ["Led 46", 50],
+                ["Led 47", 51],
+                ["Led 48", 52],
+                ["Led 49", 53],
+                ["Led 50", 54],
+                ["Led 51", 55],
+                ["Led 52", 56],
+                ["Led 53", 57],
+                ["Led 54", 58],
+                ["Led 55", 59],
+                ["Led 56", 60],
+                ["Led 57", 61],
+                ["Led 58", 62],
+                ["Led 59", 63],
+                ["Led 60", 64],
+                ["Led 61", 65],
+                ["Led 62", 66],
+                ["Led 63", 67],
+                ["Led 64", 68],
+                ["Led 65", 69],
+                ["Led 66", 70],
+                ["Led 67", 71],
+                ["Led 68", 72],
+                ["Led 69", 73],
+                ["Led 70", 74],
+                ["Led 71", 75],
+                ["Led 72", 76],
+                ["Led 73", 77],
+                ["Led 74", 78],
+                ["Led 75", 79],
+                ["Led 76", 80],
+                ["Led 77", 81],
+                ["Led 78", 82],
+                ["Led 79", 83],
+                ["Led 80", 84],
+                ["Led 81", 85],
+                ["Led 82", 86],
+                ["Led 83", 87],
+                ["Led 84", 88],
+                ["Led 85", 89],
+                ["Led 86", 90],
+                ["Led 87", 91],
+                ["Led 88", 92],
+                ["Led 89", 93],
+                ["Led 90", 94],
+                ["Led 91", 95],
+                ["Led 92", 96],
+                ["Led 93", 97],
+                ["Led 94", 98],
+                ["Led 95", 99],
+                ["Led 96", 100],
+                ["Led 97", 101],
+                ["Led 98", 102],
+                ["Led 99", 103],
+                ["Led 100", 104],
+                ["Led 101", 105],
+                ["Led 102", 106],
+                ["Led 103", 107],
+                ["Led 104", 108]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect2} != 0",
+              "label": "Scroll Lock \u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_rgb_indicators_color[2]",
+                6,
+                4,
+                2
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect3} != 0",
+              "label": "Layer 1 \u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_rgb_indicators_brightness[3]",
+                6,
+                2,
+                3
+              ]
+            },
+            {
+              "label": "Layer 1 \u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_effect3",
+                6,
+                3,
+                3
+              ],
+              "options": [
+                ["\u5173\u95ed", 0],
+                ["\u9759\u6001\u5355\u8272", 1],
+                ["\u5355\u8272\u547c\u5438", 2],
+                ["\u5faa\u73af\u547c\u5438", 3],
+                ["\u5f69\u8679\u5faa\u73af", 4],
+                ["\u968f\u673a\u53d8\u6362", 5],
+                ["\u968f\u673a\u8272\u5f69", 6]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect3} != 0",
+              "label": "Layer 1 \u706f\u73e0",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_led[3]",
+                6,
+                5,
+                3
+              ],
+              "options": [
+                ["\u5168\u90e8\u706f\u73e0", 0],
+                ["\u5168\u90e8\u8f74\u706f", 1],
+                ["Logo\u706f", 2],
+                ["Led 0", 4],
+                ["Led 1", 5],
+                ["Led 2", 6],
+                ["Led 3", 7],
+                ["Led 4", 8],
+                ["Led 5", 9],
+                ["Led 6", 10],
+                ["Led 7", 11],
+                ["Led 8", 12],
+                ["Led 9", 13],
+                ["Led 10", 14],
+                ["Led 11", 15],
+                ["Led 12", 16],
+                ["Led 13", 17],
+                ["Led 14", 18],
+                ["Led 15", 19],
+                ["Led 16", 20],
+                ["Led 17", 21],
+                ["Led 18", 22],
+                ["Led 19", 23],
+                ["Led 20", 24],
+                ["Led 21", 25],
+                ["Led 22", 26],
+                ["Led 23", 27],
+                ["Led 24", 28],
+                ["Led 25", 29],
+                ["Led 26", 30],
+                ["Led 27", 31],
+                ["Led 28", 32],
+                ["Led 29", 33],
+                ["Led 30", 34],
+                ["Led 31", 35],
+                ["Led 32", 36],
+                ["Led 33", 37],
+                ["Led 34", 38],
+                ["Led 35", 39],
+                ["Led 36", 40],
+                ["Led 37", 41],
+                ["Led 38", 42],
+                ["Led 39", 43],
+                ["Led 40", 44],
+                ["Led 41", 45],
+                ["Led 42", 46],
+                ["Led 43", 47],
+                ["Caps R", 48],
+                ["Caps L", 49],
+                ["Led 46", 50],
+                ["Led 47", 51],
+                ["Led 48", 52],
+                ["Led 49", 53],
+                ["Led 50", 54],
+                ["Led 51", 55],
+                ["Led 52", 56],
+                ["Led 53", 57],
+                ["Led 54", 58],
+                ["Led 55", 59],
+                ["Led 56", 60],
+                ["Led 57", 61],
+                ["Led 58", 62],
+                ["Led 59", 63],
+                ["Led 60", 64],
+                ["Led 61", 65],
+                ["Led 62", 66],
+                ["Led 63", 67],
+                ["Led 64", 68],
+                ["Led 65", 69],
+                ["Led 66", 70],
+                ["Led 67", 71],
+                ["Led 68", 72],
+                ["Led 69", 73],
+                ["Led 70", 74],
+                ["Led 71", 75],
+                ["Led 72", 76],
+                ["Led 73", 77],
+                ["Led 74", 78],
+                ["Led 75", 79],
+                ["Led 76", 80],
+                ["Led 77", 81],
+                ["Led 78", 82],
+                ["Led 79", 83],
+                ["Led 80", 84],
+                ["Led 81", 85],
+                ["Led 82", 86],
+                ["Led 83", 87],
+                ["Led 84", 88],
+                ["Led 85", 89],
+                ["Led 86", 90],
+                ["Led 87", 91],
+                ["Led 88", 92],
+                ["Led 89", 93],
+                ["Led 90", 94],
+                ["Led 91", 95],
+                ["Led 92", 96],
+                ["Led 93", 97],
+                ["Led 94", 98],
+                ["Led 95", 99],
+                ["Led 96", 100],
+                ["Led 97", 101],
+                ["Led 98", 102],
+                ["Led 99", 103],
+                ["Led 100", 104],
+                ["Led 101", 105],
+                ["Led 102", 106],
+                ["Led 103", 107],
+                ["Led 104", 108]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect3} != 0",
+              "label": "Layer 1 \u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_rgb_indicators_color[3]",
+                6,
+                4,
+                3
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect4} != 0",
+              "label": "Layer 2 \u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_rgb_indicators_brightness[4]",
+                6,
+                2,
+                4
+              ]
+            },
+            {
+              "label": "Layer 2 \u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_effect4",
+                6,
+                3,
+                4
+              ],
+              "options": [
+                ["\u5173\u95ed", 0],
+                ["\u9759\u6001\u5355\u8272", 1],
+                ["\u5355\u8272\u547c\u5438", 2],
+                ["\u5faa\u73af\u547c\u5438", 3],
+                ["\u5f69\u8679\u5faa\u73af", 4],
+                ["\u968f\u673a\u53d8\u6362", 5],
+                ["\u968f\u673a\u8272\u5f69", 6]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect4} != 0",
+              "label": "Layer 2 \u706f\u73e0",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_led[4]",
+                6,
+                5,
+                4
+              ],
+              "options": [
+                ["\u5168\u90e8\u706f\u73e0", 0],
+                ["\u5168\u90e8\u8f74\u706f", 1],
+                ["Logo\u706f", 2],
+                ["Led 0", 4],
+                ["Led 1", 5],
+                ["Led 2", 6],
+                ["Led 3", 7],
+                ["Led 4", 8],
+                ["Led 5", 9],
+                ["Led 6", 10],
+                ["Led 7", 11],
+                ["Led 8", 12],
+                ["Led 9", 13],
+                ["Led 10", 14],
+                ["Led 11", 15],
+                ["Led 12", 16],
+                ["Led 13", 17],
+                ["Led 14", 18],
+                ["Led 15", 19],
+                ["Led 16", 20],
+                ["Led 17", 21],
+                ["Led 18", 22],
+                ["Led 19", 23],
+                ["Led 20", 24],
+                ["Led 21", 25],
+                ["Led 22", 26],
+                ["Led 23", 27],
+                ["Led 24", 28],
+                ["Led 25", 29],
+                ["Led 26", 30],
+                ["Led 27", 31],
+                ["Led 28", 32],
+                ["Led 29", 33],
+                ["Led 30", 34],
+                ["Led 31", 35],
+                ["Led 32", 36],
+                ["Led 33", 37],
+                ["Led 34", 38],
+                ["Led 35", 39],
+                ["Led 36", 40],
+                ["Led 37", 41],
+                ["Led 38", 42],
+                ["Led 39", 43],
+                ["Led 40", 44],
+                ["Led 41", 45],
+                ["Led 42", 46],
+                ["Led 43", 47],
+                ["Caps R", 48],
+                ["Caps L", 49],
+                ["Led 46", 50],
+                ["Led 47", 51],
+                ["Led 48", 52],
+                ["Led 49", 53],
+                ["Led 50", 54],
+                ["Led 51", 55],
+                ["Led 52", 56],
+                ["Led 53", 57],
+                ["Led 54", 58],
+                ["Led 55", 59],
+                ["Led 56", 60],
+                ["Led 57", 61],
+                ["Led 58", 62],
+                ["Led 59", 63],
+                ["Led 60", 64],
+                ["Led 61", 65],
+                ["Led 62", 66],
+                ["Led 63", 67],
+                ["Led 64", 68],
+                ["Led 65", 69],
+                ["Led 66", 70],
+                ["Led 67", 71],
+                ["Led 68", 72],
+                ["Led 69", 73],
+                ["Led 70", 74],
+                ["Led 71", 75],
+                ["Led 72", 76],
+                ["Led 73", 77],
+                ["Led 74", 78],
+                ["Led 75", 79],
+                ["Led 76", 80],
+                ["Led 77", 81],
+                ["Led 78", 82],
+                ["Led 79", 83],
+                ["Led 80", 84],
+                ["Led 81", 85],
+                ["Led 82", 86],
+                ["Led 83", 87],
+                ["Led 84", 88],
+                ["Led 85", 89],
+                ["Led 86", 90],
+                ["Led 87", 91],
+                ["Led 88", 92],
+                ["Led 89", 93],
+                ["Led 90", 94],
+                ["Led 91", 95],
+                ["Led 92", 96],
+                ["Led 93", 97],
+                ["Led 94", 98],
+                ["Led 95", 99],
+                ["Led 96", 100],
+                ["Led 97", 101],
+                ["Led 98", 102],
+                ["Led 99", 103],
+                ["Led 100", 104],
+                ["Led 101", 105],
+                ["Led 102", 106],
+                ["Led 103", 107],
+                ["Led 104", 108]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect4} != 0",
+              "label": "Layer 2 \u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_rgb_indicators_color[4]",
+                6,
+                4,
+                4
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect5} != 0",
+              "label": "Layer 3 \u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_rgb_indicators_brightness[5]",
+                6,
+                2,
+                5
+              ]
+            },
+            {
+              "label": "Layer 3 \u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_effect5",
+                6,
+                3,
+                5
+              ],
+              "options": [
+                ["\u5173\u95ed", 0],
+                ["\u9759\u6001\u5355\u8272", 1],
+                ["\u5355\u8272\u547c\u5438", 2],
+                ["\u5faa\u73af\u547c\u5438", 3],
+                ["\u5f69\u8679\u5faa\u73af", 4],
+                ["\u968f\u673a\u53d8\u6362", 5],
+                ["\u968f\u673a\u8272\u5f69", 6]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect5} != 0",
+              "label": "Layer 3 \u706f\u73e0",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_led[5]",
+                6,
+                5,
+                5
+              ],
+              "options": [
+                ["\u5168\u90e8\u706f\u73e0", 0],
+                ["\u5168\u90e8\u8f74\u706f", 1],
+                ["Logo\u706f", 2],
+                ["Led 0", 4],
+                ["Led 1", 5],
+                ["Led 2", 6],
+                ["Led 3", 7],
+                ["Led 4", 8],
+                ["Led 5", 9],
+                ["Led 6", 10],
+                ["Led 7", 11],
+                ["Led 8", 12],
+                ["Led 9", 13],
+                ["Led 10", 14],
+                ["Led 11", 15],
+                ["Led 12", 16],
+                ["Led 13", 17],
+                ["Led 14", 18],
+                ["Led 15", 19],
+                ["Led 16", 20],
+                ["Led 17", 21],
+                ["Led 18", 22],
+                ["Led 19", 23],
+                ["Led 20", 24],
+                ["Led 21", 25],
+                ["Led 22", 26],
+                ["Led 23", 27],
+                ["Led 24", 28],
+                ["Led 25", 29],
+                ["Led 26", 30],
+                ["Led 27", 31],
+                ["Led 28", 32],
+                ["Led 29", 33],
+                ["Led 30", 34],
+                ["Led 31", 35],
+                ["Led 32", 36],
+                ["Led 33", 37],
+                ["Led 34", 38],
+                ["Led 35", 39],
+                ["Led 36", 40],
+                ["Led 37", 41],
+                ["Led 38", 42],
+                ["Led 39", 43],
+                ["Led 40", 44],
+                ["Led 41", 45],
+                ["Led 42", 46],
+                ["Led 43", 47],
+                ["Caps R", 48],
+                ["Caps L", 49],
+                ["Led 46", 50],
+                ["Led 47", 51],
+                ["Led 48", 52],
+                ["Led 49", 53],
+                ["Led 50", 54],
+                ["Led 51", 55],
+                ["Led 52", 56],
+                ["Led 53", 57],
+                ["Led 54", 58],
+                ["Led 55", 59],
+                ["Led 56", 60],
+                ["Led 57", 61],
+                ["Led 58", 62],
+                ["Led 59", 63],
+                ["Led 60", 64],
+                ["Led 61", 65],
+                ["Led 62", 66],
+                ["Led 63", 67],
+                ["Led 64", 68],
+                ["Led 65", 69],
+                ["Led 66", 70],
+                ["Led 67", 71],
+                ["Led 68", 72],
+                ["Led 69", 73],
+                ["Led 70", 74],
+                ["Led 71", 75],
+                ["Led 72", 76],
+                ["Led 73", 77],
+                ["Led 74", 78],
+                ["Led 75", 79],
+                ["Led 76", 80],
+                ["Led 77", 81],
+                ["Led 78", 82],
+                ["Led 79", 83],
+                ["Led 80", 84],
+                ["Led 81", 85],
+                ["Led 82", 86],
+                ["Led 83", 87],
+                ["Led 84", 88],
+                ["Led 85", 89],
+                ["Led 86", 90],
+                ["Led 87", 91],
+                ["Led 88", 92],
+                ["Led 89", 93],
+                ["Led 90", 94],
+                ["Led 91", 95],
+                ["Led 92", 96],
+                ["Led 93", 97],
+                ["Led 94", 98],
+                ["Led 95", 99],
+                ["Led 96", 100],
+                ["Led 97", 101],
+                ["Led 98", 102],
+                ["Led 99", 103],
+                ["Led 100", 104],
+                ["Led 101", 105],
+                ["Led 102", 106],
+                ["Led 103", 107],
+                ["Led 104", 108]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect5} != 0",
+              "label": "Layer 3 \u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_rgb_indicators_color[5]",
+                6,
+                4,
+                5
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect6} != 0",
+              "label": "Layer 4 \u4eae\u5ea6",
+              "type": "range",
+              "options": [
+                0,
+                250
+              ],
+              "content": [
+                "id_rgb_indicators_brightness[6]",
+                6,
+                2,
+                6
+              ]
+            },
+            {
+              "label": "Layer 4 \u706f\u6548",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_effect6",
+                6,
+                3,
+                6
+              ],
+              "options": [
+                ["\u5173\u95ed", 0],
+                ["\u9759\u6001\u5355\u8272", 1],
+                ["\u5355\u8272\u547c\u5438", 2],
+                ["\u5faa\u73af\u547c\u5438", 3],
+                ["\u5f69\u8679\u5faa\u73af", 4],
+                ["\u968f\u673a\u53d8\u6362", 5],
+                ["\u968f\u673a\u8272\u5f69", 6]
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect6} != 0",
+              "label": "Layer 4 \u706f\u73e0",
+              "type": "dropdown",
+              "content": [
+                "id_rgb_indicators_led[6]",
+                6,
+                5,
+                6
+              ],
+              "options": [
+                ["Led 0", 4],
+                ["Led 1", 5],
+                ["Led 2", 6],
+                ["Led 3", 7],
+                ["Led 4", 8],
+                ["Led 5", 9],
+                ["Led 6", 10],
+                ["Led 7", 11],
+                ["Led 8", 12],
+                ["Led 9", 13],
+                ["Led 10", 14],
+                ["Led 11", 15],
+                ["Led 12", 16],
+                ["Led 13", 17],
+                ["Led 14", 18],
+                ["Led 15", 19],
+                ["Led 16", 20],
+                ["Led 17", 21],
+                ["Led 18", 22],
+                ["Led 19", 23],
+                ["Led 20", 24],
+                ["Led 21", 25],
+                ["Led 22", 26],
+                ["Led 23", 27],
+                ["Led 24", 28],
+                ["Led 25", 29],
+                ["Led 26", 30],
+                ["Led 27", 31],
+                ["Led 28", 32],
+                ["Led 29", 33],
+                ["Led 30", 34],
+                ["Led 31", 35],
+                ["Led 32", 36],
+                ["Led 33", 37],
+                ["Led 34", 38],
+                ["Led 35", 39],
+                ["Led 36", 40],
+                ["Led 37", 41],
+                ["Led 38", 42],
+                ["Led 39", 43],
+                ["Led 40", 44],
+                ["Led 41", 45],
+                ["Led 42", 46],
+                ["Led 43", 47],
+                ["Led 44", 48],
+                ["Led 45", 49],
+                ["Led 46", 50],
+                ["Led 47", 51],
+                ["Led 48", 52],
+                ["Led 49", 53],
+                ["Led 50", 54],
+                ["Led 51", 55],
+                ["Led 52", 56],
+                ["Led 53", 57],
+                ["Led 54", 58],
+                ["Led 55", 59],
+                ["Led 56", 60],
+                ["Led 57", 61],
+                ["Led 58", 62],
+                ["Led 59", 63],
+                ["Led 60", 64],
+                ["Led 61", 65],
+                ["Led 62", 66],
+                ["Led 63", 67],
+                ["Led 64", 68],
+                ["Led 65", 69],
+                ["Led 66", 70],
+                ["Led 67", 71],
+                ["Led 68", 72],
+                ["Led 69", 73],
+                ["Led 70", 74],
+                ["Led 71", 75],
+                ["Led 72", 76],
+                ["Led 73", 77],
+                ["Led 74", 78],
+                ["Led 75", 79],
+                ["Led 76", 80],
+                ["Led 77", 81],
+                ["Led 78", 82],
+                ["Led 79", 83],
+                ["Led 80", 84],
+                ["Led 81", 85],
+                ["Led 82", 86],
+                ["Led 83", 87],
+                ["Led 84", 88],
+                ["Led 85", 89],
+                ["Led 86", 90],
+                ["Led 87", 91],
+                ["Led 88", 92],
+                ["Led 89", 93],
+                ["Led 90", 94],
+                ["Led 91", 95],
+                ["Led 92", 96],
+                ["Led 93", 97],
+                ["Led 94", 98],
+                ["Led 95", 99],
+                ["Led 96", 100],
+                ["Led 97", 101],
+                ["Led 98", 102],
+                ["Led 99", 103],
+                ["Led 100", 104],
+                ["Led 101", 105],
+                ["Led 102", 106],
+                ["Led 103", 107],
+                ["Led 104", 108]
+                
+              ]
+            },
+            {
+              "showIf": "{id_rgb_indicators_effect6} != 0",
+              "label": "Layer 4 \u989c\u8272",
+              "type": "color",
+              "content": [
+                "id_rgb_indicators_color[6]",
+                6,
+                4,
+                6
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Magic\u8bbe\u7f6e",
+      "content": [
+        {
+          "label": "\u952e\u76d8\u8bbe\u7f6e",
+          "content": [
+            {
+              "label": "\u91cd\u7f6e\u5168\u90e8\u8bbe\u7f6e",
+              "type": "toggle",
+              "content": ["id_advanced_magic_settings_reset", 8, 0]
+            },
+            {
+              "label": "\u6d88\u6296\u65f6\u95f4",
+              "type": "dropdown",
+              "options": [
+                ["0ms", 0],
+                ["1ms", 1],
+                ["2ms", 2],
+                ["3ms", 3],
+                ["4ms", 4],
+                ["5ms", 5],
+                ["6ms", 6],
+                ["7ms", 7],
+                ["8ms", 8],
+                ["9ms", 9],
+                ["10ms", 10],
+                ["15ms", 15],
+                ["20ms", 20],
+                ["30ms", 30],
+                ["40ms", 40],
+                ["50ms", 50],
+                ["70ms", 70],
+                ["80ms", 80],
+                ["90ms", 90],
+                ["100ms", 100],
+                ["150ms", 150],
+                ["200ms", 200],
+                ["250ms", 250]               
+              ],
+              "content": [
+                "id_advanced_magic_debounce",
+                8,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Magic\u8bbe\u7f6e",
+          "content": [
+              {
+                  "label": "\u5f00\u542f\u5168\u952e\u65e0\u51b2",
+                  "type": "toggle",
+                  "content": ["id_magic_nkro", 7, 1]
+              },
+              {
+                  "label": "\u9501\u5b9aGui\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_no_gui", 7, 2]
+              },
+              {
+                  "label": "Caps\u952e\u89c6\u4e3aCtrl\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_capslock_to_control", 7, 3]
+              },
+              {
+                  "label": "\u4ea4\u6362Ctrl\u548cCaps\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_swap_control_capslock", 7, 4]
+              },
+              {
+                  "label": "\u4ea4\u6362ESC\u548cCaps\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_swap_escape_capslock", 7, 5]
+              },
+              {
+                  "label": "\u4ea4\u6362LAlt\u548cLGui\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_swap_lalt_lgui", 7, 6]
+              },
+              {
+                  "label": "\u4ea4\u6362RAlt\u548cRGui\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_swap_ralt_rgui", 7, 7]
+              },
+              {
+                  "label": "\u4ea4\u6362LCtrl\u548cLGui\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_swap_lctl_lgui", 7, 8]
+              },
+              {
+                  "label": "\u4ea4\u6362RCtrl\u548cRGui\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_swap_rctl_rgui", 7, 9]
+              },
+              {
+                  "label": "\u4ea4\u6362 ` \u548c Esc\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_swap_grave_esc", 7, 10]
+              },
+              {
+                  "label": "\u4ea4\u6362 \\ \u548c Backspace\u952e",
+                  "type": "toggle",
+                  "content": ["id_magic_swap_backslash_backspace", 7, 11]
+              },
+              {
+                  "label": "\u542f\u7528Oneshot",
+                  "type": "toggle",
+                  "content": ["id_magic_oneshot_enable", 7, 12]
+              },
+              {
+                  "label": "\u542f\u7528\u81ea\u52a8\u6821\u6b63",
+                  "type": "toggle",
+                  "content": ["id_magic_autocorrect_enable", 7, 13]
+              }
+          ]
+      },
+        {
+          "label": "Grave Esc\u8bbe\u7f6e",
+          "content": [
+              {
+                  "label": "Alt\u952e\u6309\u4e0b\u65f6\u53d1\u9001Esc\u6309\u952e",
+                  "type": "toggle",
+                  "content": ["id_advanced_magic_grave_esc_override[0]", 8, 11, 0]
+              },
+              {
+                  "label": "Ctrl\u952e\u6309\u4e0b\u65f6\u53d1\u9001Esc\u6309\u952e",
+                  "type": "toggle",
+                  "content": ["id_advanced_magic_grave_esc_override[1]", 8, 11, 1]
+              },
+              {
+                  "label": "Gui\u952e\u6309\u4e0b\u65f6\u53d1\u9001Esc\u6309\u952e",
+                  "type": "toggle",
+                  "content": ["id_advanced_magic_grave_esc_override[2]", 8, 11, 2]
+              },
+              {
+                  "label": "Shift\u952e\u6309\u4e0b\u65f6\u53d1\u9001Esc\u6309\u952e",
+                  "type": "toggle",
+                  "content": ["id_advanced_magic_grave_esc_override[3]", 8, 11, 3]
+              }
+          ]
+      },
+      {
+        "label": "\u5355\u51fb\u957f\u6309\u8bbe\u7f6e",
+        "content": [
+            {
+                "label": "\u5141\u8bb8\u5355\u51fb\u89e6\u53d1\u957f\u6309\u5207\u5c42\u952e",
+                "type": "toggle",
+                "content": ["id_advanced_magic_tap_hold_config[0]", 8, 12, 0]
+            },
+            {
+                "label": "\u957f\u6309\u5207\u5c42\u540e\u65e0\u52a8\u4f5c\u5219\u53d1\u9001\u70b9\u51fb\u952e\u503c",
+                "type": "toggle",
+                "content": ["id_advanced_magic_tap_hold_config[1]", 8, 12, 1]
+            },
+            {
+                "label": "\u5176\u4ed6\u952e\u6309\u4e0b\u540e\u4fdd\u6301\u5207\u5c42",
+                "type": "toggle",
+                "content": ["id_advanced_magic_tap_hold_config[2]", 8, 12, 2]
+            },
+            {
+                "label": "\u7b2cN\u6b21\u70b9\u51fb\u89e6\u53d1\u957f\u6309\u529f\u80fd",
+                "type": "range",
+                "options": [0, 255],
+                "content": ["id_advanced_magic_tapping_toggle_times", 8, 13]
+            },
+            {
+                "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+                "type": "range",
+                "options": [0, 9999],
+                "content": ["id_advanced_magic_tapping_term", 8, 14]
+            },
+            {
+                "label": "\u5feb\u901f\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+                "type": "range",
+                "options": [0, 9999],
+                "content": ["id_advanced_magic_quick_tap_term", 8, 15]
+            },
+            {
+                "label": "\u6309\u4e0b\u4e0e\u91ca\u653e\u952e\u95f4\u5ef6\u8fdf\u65f6\u95f4(ms)",
+                "type": "range",
+                "options": [0, 9999],
+                "content": ["id_advanced_magic_tap_code_delay", 8, 16]
+            },
+            {
+                "label": "Caps\u952e\u6fc0\u6d3b\u5ef6\u8fdf\u65f6\u95f4(ms)",
+                "type": "range",
+                "options": [0, 9999],
+                "content": ["id_advanced_magic_tap_hold_caps_delay", 8, 17]
+            }
+        ]
+    },
+        {
+          "label": "OneShot\u8bbe\u7f6e",
+          "content": [
+              {
+                  "label": "\u542f\u7528Oneshot",
+                  "type": "toggle",
+                  "content": ["id_magic_oneshot_enable", 7, 12]
+              },
+              {
+                  "showIf": "{id_magic_oneshot_enable} != 0",
+                  "label": "Oneshot\u7684\u6709\u6548\u6309\u952e\u6b21\u6570",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_oneshot_tap_toggle", 8, 20]
+              },
+              {
+                  "showIf": "{id_magic_oneshot_enable} != 0",
+                  "label": "Oneshot\u91ca\u653e\u65f6\u95f4",
+                  "type": "range",
+                  "options": [0, 9999],
+                  "content": ["id_advanced_magic_oneshot_timeout", 8, 21]
+              }
+          ]
+      },
+      {
+        "label": "\u81ea\u52a8Shift\u8bbe\u7f6e",
+        "content": [
+            {
+                "label": "\u542f\u7528\u81ea\u52a8Shift",
+                "type": "toggle",
+                "content": ["id_advanced_magic_auto_shift_config0", 8, 18, 0]
+            },
+            {
+                "showIf": "{id_advanced_magic_auto_shift_config0} != 0",
+                "label": "\u4fee\u9970\u952e\u542f\u7528",
+                "type": "toggle",
+                "content": ["id_advanced_magic_auto_shift_config[1]", 8, 18, 1]
+            },
+            {
+                "showIf": "{id_advanced_magic_auto_shift_config0} != 0",
+                "label": "\u5b57\u6bcd\u952e\u4e0d\u542f\u7528",
+                "type": "toggle",
+                "content": ["id_advanced_magic_auto_shift_config[2]", 8, 18, 2]
+            },
+            {
+                "showIf": "{id_advanced_magic_auto_shift_config0} != 0",
+                "label": "\u6570\u5b57\u952e\u4e0d\u542f\u7528",
+                "type": "toggle",
+                "content": ["id_advanced_magic_auto_shift_config[3]", 8, 18, 3]
+            },
+            {
+                "showIf": "{id_advanced_magic_auto_shift_config0} != 0",
+                "label": "\u7b26\u53f7\u952e\u4e0d\u542f\u7528",
+                "type": "toggle",
+                "content": ["id_advanced_magic_auto_shift_config[4]", 8, 18, 4]
+            },
+            {
+                "showIf": "{id_advanced_magic_auto_shift_config0} != 0",
+                "label": "\u542f\u7528\u957f\u6309\u529f\u80fd",
+                "type": "toggle",
+                "content": ["id_advanced_magic_auto_shift_config[5]", 8, 18, 5]
+            },
+            {
+                "showIf": "{id_advanced_magic_auto_shift_config0} != 0",
+                "label": "\u89e6\u53d1\u540e\u5173\u95ed\u957f\u6309\u529f\u80fd",
+                "type": "toggle",
+                "content": [
+                    "id_advanced_magic_auto_shift_config[6]", 8, 18, 6]
+            },
+            {
+                "showIf": "{id_advanced_magic_auto_shift_config0} != 0",
+                "label": "\u81ea\u52a8Shift\u89e6\u53d1\u65f6\u95f4(ms)",
+                "type": "range",
+                "options": [0, 9999],
+                "content": ["id_advanced_magic_auto_shift_timeout", 8, 17]
+            },
+            {
+              "showIf": "{id_advanced_magic_auto_shift_config0} != 0",
+              "label": "\u0054\u0041\u0042\u952e\u4e0d\u542f\u7528",
+              "type": "toggle",
+              "content": ["id_advanced_magic_auto_shift_config[7]", 8, 18, 7]
+            }
+        ]
+    },
+    {
+      "label": "\u7ec4\u5408\u952e\u8bbe\u7f6e",
+      "content": [
+          {
+              "label": "\u542f\u7528\u7ec4\u5408\u952e",
+              "type": "toggle",
+              "content": ["id_advanced_magic_combo_config0", 8, 22, 0]
+          },
+          {
+              "showIf": "{id_advanced_magic_combo_config0} != 0",
+              "label": "\u7ec4\u5408\u952e\u5728\u70b9\u51fb\u6216\u957f\u6309\u65f6\u89e6\u53d1",
+              "type": "toggle",
+              "content": ["id_advanced_magic_combo_config[1]", 8, 22, 1]
+          },
+          {
+              "showIf": "{id_advanced_magic_combo_config0} != 0",
+              "label": "\u7ec4\u5408\u952e\u4ec5\u5728\u70b9\u51fb\u65f6\u89e6\u53d1",
+              "type": "toggle",
+              "content": ["id_advanced_magic_combo_config[2]", 8, 22, 2]
+          },
+          {
+              "showIf": "{id_advanced_magic_combo_config0} != 0",
+              "label": "\u7ec4\u5408\u952e\u4ec5\u6309\u987a\u5e8f\u6309\u4e0b\u6309\u952e\u65f6\u89e6\u53d1",
+              "type": "toggle",
+              "content": ["id_advanced_magic_combo_config[3]", 8, 22, 3]
+          },
+          {
+              "showIf": "{id_advanced_magic_combo_config0} != 0",
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [0, 9999],
+              "content": ["id_advanced_magic_combo_term", 8, 23]
+          },
+          {
+              "showIf": "{id_advanced_magic_combo_config0} != 0",
+              "label": "\u7ec4\u5408\u952e\u957f\u6309\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [0, 9999],
+              "content": ["id_advanced_magic_combo_hold_term", 8, 24]
+          }
+      ]
+  },
+        {
+          "label": "\u9f20\u6807\u952e\u8bbe\u7f6e",
+          "content": [
+              {
+                  "label": "\u6309\u4e0b\u79fb\u52a8\u952e\u548c\u5149\u6807\u79fb\u52a8\u4e4b\u95f4\u7684\u5ef6\u8fdf",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_delay", 8, 2]
+              },
+              {
+                  "label": "\u5149\u6807\u79fb\u52a8\u4e4b\u95f4\u7684\u95f4\u9694\u65f6\u95f4(ms)",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_interval", 8, 3]
+              },
+              {
+                  "label": "\u79fb\u52a8\u6b65\u957f",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_move_delta", 8, 4]
+              },
+              {
+                  "label": "\u5149\u6807\u505c\u6b62\u52a0\u901f\u65f6\u7684\u6700\u5927\u901f\u5ea6",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_max_speed", 8, 5]
+              },
+              {
+                  "label": "\u5149\u6807\u8fbe\u5230\u6700\u5927\u901f\u5ea6\u7684\u65f6\u95f4",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_time_to_max", 8, 6]
+              },
+              {
+                  "label": "\u6309\u4e0b\u6eda\u8f6e\u952e\u548c\u6eda\u8f6e\u79fb\u52a8\u4e4b\u95f4\u7684\u5ef6\u8fdf",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_wheel_delay", 8, 7]
+              },
+              {
+                  "label": "\u6eda\u8f6e\u79fb\u52a8\u4e4b\u95f4\u7684\u95f4\u9694\u65f6\u95f4(\u6beb\u79d2)",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_wheel_interval", 8, 8]
+              },
+              {
+                  "label": "\u6bcf\u6b21\u6eda\u8f6e\u52a8\u4f5c\u7684\u6700\u5927\u6eda\u8f6e\u6b65\u6570",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_wheel_max_speed", 8, 9]
+              },
+              {
+                  "label": "\u6eda\u8f6e\u8fbe\u5230\u6700\u5927\u6eda\u8f6e\u901f\u5ea6\u7684\u65f6\u95f4",
+                  "type": "range",
+                  "options": [0, 255],
+                  "content": ["id_advanced_magic_mk_wheel_time_to_max", 8, 10]
+              }
+          ]
+      },
+      {
+    "label": "win/mac\u8bbe\u7f6e",
+    "content": [
+        {
+            "label": "\u952e\u76d8\u5c42\u81ea\u9002\u5e94\u7cfb\u7edf\u5207\u6362",
+            "type": "toggle",
+            "content": ["id_auto_switch_layers_reset", 11, 0]
+        },
+        {
+            "label": "\u542f\u7528\u5c42\u81ea\u9002\u5e94\u7cfb\u7edf\u5207\u6362",
+            "type": "toggle",
+            "content": ["id_auto_switch_layers_config0", 11, 1, 0]
+        },
+        {
+            "showIf": "{id_auto_switch_layers_config0} != 0",
+            "label": "\u542f\u7528\u81ea\u52a8\u66f4\u65b0FN\u952e",
+            "type": "toggle",
+            "content": ["id_auto_switch_layers_config1", 11, 1, 1]
+        },
+        {
+            "showIf": "{id_auto_switch_layers_config0} != 0",
+            "label": "Windows\u5c42",
+            "type": "dropdown",
+            "content": ["id_auto_switch_layers_layer[0]", 11, 2, 0],
+            "options": [
+                ["\u5c420", 0],
+                ["\u5c421", 1],
+                ["\u5c422", 2],
+                ["\u5c423", 3],
+                ["\u5c424", 4]
+            ]
+        },
+        {
+            "showIf": "{id_auto_switch_layers_config0} != 0",
+            "label": "Windows Fn\u5c42",
+            "type": "dropdown",
+            "content": ["id_auto_switch_layers_layer[1]", 11, 2, 1],
+            "options": [
+              ["\u5c421", 1],
+              ["\u5c422", 2],
+              ["\u5c423", 3],
+              ["\u5c424", 4]
+            ]
+        },
+        {
+            "showIf": "{id_auto_switch_layers_config0} != 0",
+            "label": "Macos\u5c42",
+            "type": "dropdown",
+            "content": ["id_auto_switch_layers_layer[2]", 11, 2, 2],
+            "options": [
+              ["\u5c421", 1],
+              ["\u5c422", 2],
+              ["\u5c423", 3],
+              ["\u5c424", 4],
+              ["\u5c427", 7]
+            ]
+        },
+        {
+            "showIf": "{id_auto_switch_layers_config0} != 0",
+            "label": "Macos Fn\u5c42",
+            "type": "dropdown",
+            "content": ["id_auto_switch_layers_layer[3]", 11, 2, 3],
+            "options": [
+              ["\u5c421", 1],
+              ["\u5c422", 2],
+              ["\u5c423", 3],
+              ["\u5c424", 4]
+            ]
+        }
+    ]
+},
+{
+  "label": "Caps Word",
+  "content": [
+      {
+          "label": "Enable Caps Word",
+          "type": "toggle",
+          "content": ["id_advanced_magic_caps_word_config0", 8, 25, 0]
+      },
+      {
+          "showIf": "{id_advanced_magic_caps_word_config0} != 0",
+          "label": "BOTH_SHIFTS_TURNS_ON_CAPS_WORD",
+          "type": "toggle",
+          "content": ["id_advanced_magic_caps_word_config[1]", 8, 25, 1]
+      },
+      {
+          "showIf": "{id_advanced_magic_caps_word_config0} != 0",
+          "label": "CAPS_WORD_INVERT_ON_SHIFT",
+          "type": "toggle",
+          "content": ["id_advanced_magic_caps_word_config[3]", 8, 25, 3]
+      },
+      {
+          "showIf": "{id_advanced_magic_caps_word_config0} != 0",
+          "label": "STOP_CAPS_WORD_WHEN_PRESS_CAPS_WORD_KEYCODE_ARROW",
+          "type": "toggle",
+          "content": ["id_advanced_magic_caps_word_config[4]", 8, 25, 4]
+      },
+      {
+          "showIf": "{id_advanced_magic_caps_word_config0} != 0",
+          "label": "STOP_CAPS_WORD_WHEN_PRESS_CAPS_WORD_KEYCODE_KC_BSPC",
+          "type": "toggle",
+          "content": ["id_advanced_magic_caps_word_config[5]", 8, 25, 5]
+      },
+      {
+          "showIf": "{id_advanced_magic_caps_word_config0} != 0",
+          "label": "STOP_CAPS_WORD_WHEN_PRESS_KEYCODE_KC_DEL",
+          "type": "toggle",
+          "content": ["id_advanced_magic_caps_word_config[6]", 8, 25, 6]
+      },
+      {
+          "showIf": "{id_advanced_magic_caps_word_config0} != 0",
+          "label": "STOP_CAPS_WORD_WHEN_PRESS_KEYCODE_KC_UNDS",
+          "type": "toggle",
+          "content": ["id_advanced_magic_caps_word_config[7]", 8, 25, 7]
+      },
+      {
+          "showIf": "{id_advanced_magic_caps_word_config0} != 0",
+          "label": "CAPS_WORD_IDLE_TIMEOUT(ms)",
+          "type": "range",
+          "options": [0, 9999],
+          "content": ["id_advanced_magic_caps_word_idle_timeout", 8, 26]
+      }
+  ]
+}
+      ]
+    },
+    {
+      "label": "\u6309\u952e\u590d\u7528",
+      "content": [
+        {  
+          "label": "\u91cd\u7f6e\u6309\u952e\u590d\u7528",
+          "content": [
+           {
+             "label": "\u91cd\u7f6e\u5168\u90e8\u6309\u952e\u590d\u7528\uff08\u952e\u76d8\u91cd\u542f\u540e\u751f\u6548\uff09",
+             "type": "toggle",
+             "content": ["id_dynamic_tap_dance_reset", 9, 0]
+         }
+       ]
+       } ,
+        {
+          "label": "\u6309\u952e\u590d\u7528(0)-0X5700",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[0]",
+                9,
+                1,
+                0
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[0]",
+                9,
+                2,
+                0
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[0]",
+                9,
+                3,
+                0
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[0]",
+                9,
+                4,
+                0
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[0]",
+                9,
+                5,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(1)-0X5701",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[1]",
+                9,
+                1,
+                1
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[1]",
+                9,
+                2,
+                1
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[1]",
+                9,
+                3,
+                1
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[1]",
+                9,
+                4,
+                1
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[1]",
+                9,
+                5,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(2)-0X5702",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[2]",
+                9,
+                1,
+                2
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[2]",
+                9,
+                2,
+                2
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[2]",
+                9,
+                3,
+                2
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[2]",
+                9,
+                4,
+                2
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[2]",
+                9,
+                5,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(3)-0X5703",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[3]",
+                9,
+                1,
+                3
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[3]",
+                9,
+                2,
+                3
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[3]",
+                9,
+                3,
+                3
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[3]",
+                9,
+                4,
+                3
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[3]",
+                9,
+                5,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(4)-0X5704",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[4]",
+                9,
+                1,
+                4
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[4]",
+                9,
+                2,
+                4
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[4]",
+                9,
+                3,
+                4
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[4]",
+                9,
+                4,
+                4
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[4]",
+                9,
+                5,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(5)-0X5705",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[5]",
+                9,
+                1,
+                5
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[5]",
+                9,
+                2,
+                5
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[5]",
+                9,
+                3,
+                5
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[5]",
+                9,
+                4,
+                5
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[5]",
+                9,
+                5,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(6)-0X5706",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[6]",
+                9,
+                1,
+                6
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[6]",
+                9,
+                2,
+                6
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[6]",
+                9,
+                3,
+                6
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[6]",
+                9,
+                4,
+                6
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[6]",
+                9,
+                5,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(7)-0X5707",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[7]",
+                9,
+                1,
+                7
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[7]",
+                9,
+                2,
+                7
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[7]",
+                9,
+                3,
+                7
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[7]",
+                9,
+                4,
+                7
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[7]",
+                9,
+                5,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(8)-0X5708",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[8]",
+                9,
+                1,
+                8
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[8]",
+                9,
+                2,
+                8
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[8]",
+                9,
+                3,
+                8
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[8]",
+                9,
+                4,
+                8
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[8]",
+                9,
+                5,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "label": "\u6309\u952e\u590d\u7528(9)-0X5709",
+          "content": [
+            {
+              "label": "\u5355\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_keycode[9]",
+                9,
+                1,
+                9
+              ]
+            },
+            {
+              "label": "\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_hold_keycode[9]",
+                9,
+                2,
+                9
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_double_tap_keycode[9]",
+                9,
+                3,
+                9
+              ]
+            },
+            {
+              "label": "\u53cc\u51fb\u5e76\u957f\u6309",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_tap_dance_on_tap_hold_keycode[9]",
+                9,
+                4,
+                9
+              ]
+            },
+            {
+              "label": "\u5355\u51fb\u5224\u5b9a\u65f6\u95f4(ms)",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_tap_dance_tapping_term[9]",
+                9,
+                5,
+                9
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "\u7ec4\u5408\u952e",
+      "content": [  
+        {  
+           "label": "\u7ec4\u5408\u952e\u8bbe\u7f6e",
+           "content": [
+            {
+              "label": "\u91cd\u7f6e\u5168\u90e8\u7ec4\u5408\u952e\uff08\u952e\u76d8\u91cd\u542f\u540e\u751f\u6548\uff09",
+              "type": "toggle",
+              "content": ["id_dynamic_combos_reset", 10, 0]
+          }
+        ]
+        } ,             
+        { 
+           "label": "\u7ec4\u5408\u952e(0)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[0][0]",
+                10,
+                1,
+                0,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[0][1]",
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[0][2]",
+                10,
+                1,
+                0,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[0][3]",
+                10,
+                1,
+                0,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[0]",
+                10,
+                2,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                0,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[0]",
+                10,
+                3,
+                0
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(1)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[1][0]",
+                10,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[1][1]",
+                10,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[1][2]",
+                10,
+                1,
+                1,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[1][3]",
+                10,
+                1,
+                1,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[1]",
+                10,
+                2,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[1]",
+                10,
+                3,
+                1
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(2)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[2][0]",
+                10,
+                1,
+                2,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[2][1]",
+                10,
+                1,
+                2,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[2][2]",
+                10,
+                1,
+                2,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[2][3]",
+                10,
+                1,
+                2,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[2]",
+                10,
+                2,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[2]",
+                10,
+                3,
+                2
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(3)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[3][0]",
+                10,
+                1,
+                3,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[3][1]",
+                10,
+                1,
+                3,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[3][2]",
+                10,
+                1,
+                3,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[3][3]",
+                10,
+                1,
+                3,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[3]",
+                10,
+                2,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[3]",
+                10,
+                3,
+                3
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(4)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[4][0]",
+                10,
+                1,
+                4,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[4][1]",
+                10,
+                1,
+                4,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[4][2]",
+                10,
+                1,
+                4,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[4][3]",
+                10,
+                1,
+                4,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[4]",
+                10,
+                2,
+                4
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[4]",
+                10,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(5)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[5][0]",
+                10,
+                1,
+                5,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[5][1]",
+                10,
+                1,
+                5,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[5][2]",
+                10,
+                1,
+                5,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[5][3]",
+                10,
+                1,
+                5,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[5]",
+                10,
+                2,
+                5
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[5]",
+                10,
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(6)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[6][0]",
+                10,
+                1,
+                6,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[6][1]",
+                10,
+                1,
+                6,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[6][2]",
+                10,
+                1,
+                6,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[6][3]",
+                10,
+                1,
+                6,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[6]",
+                10,
+                2,
+                6
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[6]",
+                10,
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(7)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[7][0]",
+                10,
+                1,
+                7,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[7][1]",
+                10,
+                1,
+                7,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[7][2]",
+                10,
+                1,
+                7,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[7][3]",
+                10,
+                1,
+                7,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[7]",
+                10,
+                2,
+                7
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[7]",
+                10,
+                3,
+                7
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(8)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[8][0]",
+                10,
+                1,
+                8,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[8][1]",
+                10,
+                1,
+                8,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[8][2]",
+                10,
+                1,
+                8,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[8][3]",
+                10,
+                1,
+                8,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[8]",
+                10,
+                2,
+                8
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[8]",
+                10,
+                3,
+                8
+              ]
+            }
+          ]
+        },
+        {
+           "label": "\u7ec4\u5408\u952e(9)",
+          "content": [
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 1",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[9][0]",
+                10,
+                1,
+                9,
+                0
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 2",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[9][1]",
+                10,
+                1,
+                9,
+                1
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 3",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[9][2]",
+                10,
+                1,
+                9,
+                2
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u952e\u503c 4",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keys[9][3]",
+                10,
+                1,
+                9,
+                3
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u8f93\u51fa\u952e\u503c",
+              "type": "keycode",
+              "content": [
+                "id_dynamic_combos_keycode[9]",
+                10,
+                2,
+                9
+              ]
+            },
+            {
+              "label": "\u7ec4\u5408\u952e\u5224\u5b9a\u65f6\u95f4",
+              "type": "range",
+              "options": [
+                1,
+                9999
+              ],
+              "content": [
+                "id_dynamic_combos_combo_term[9]",
+                10,
+                3,
+                9
+              ]
+            }
+          ]
+          
+        }
+
+      ]
+    },
+    {
+      "label": "SOCD",
+      "content": [
+          {
+              "label": "\u8bbe\u7f6e",
+              "content": [
+                  {
+                      "label": "\u603b\u5f00\u5173",
+                      "type": "toggle",
+                      "content": ["id_dynamic_socd_cleaner_enable", 12, 1]
+                  },
+                  {   "showIf": "{id_dynamic_socd_cleaner_enable} != 0",
+                      "label": "\u5904\u4e8e\u5c420\u65f6SOCD\u662f\u5426\u5f00\u542f",
+                      "type": "toggle",
+                      "content": ["id_dynamic_socd_cleaner_layer_enable[0]", 12, 2, 0]
+                  },
+                  {   "showIf": "{id_dynamic_socd_cleaner_enable} != 0",
+                      "label": "\u5904\u4e8e\u5c421\u65f6SOCD\u662f\u5426\u5f00\u542f",
+                      "type": "toggle",
+                      "content": ["id_dynamic_socd_cleaner_layer_enable[1]", 12, 2, 1]
+                  },
+                  {   "showIf": "{id_dynamic_socd_cleaner_enable} != 0",
+                      "label": "\u5904\u4e8e\u5c422\u65f6SOCD\u662f\u5426\u5f00\u542f",
+                      "type": "toggle",
+                      "content": ["id_dynamic_socd_cleaner_layer_enable[2]", 12, 2, 2]
+                  },
+                  {   "showIf": "{id_dynamic_socd_cleaner_enable} != 0",
+                      "label": "\u5904\u4e8e\u5c423\u65f6SOCD\u662f\u5426\u5f00\u542f",
+                      "type": "toggle",
+                      "content": ["id_dynamic_socd_cleaner_layer_enable[3]", 12, 2, 3]
+                  },
+                  {   "showIf": "{id_dynamic_socd_cleaner_enable} != 0",
+                      "label": "\u5904\u4e8e\u5c424\u65f6SOCD\u662f\u5426\u5f00\u542f",
+                      "type": "toggle",
+                      "content": ["id_dynamic_socd_cleaner_layer_enable[4]", 12, 2, 4]
+                  },
+                  {   "showIf": "{id_dynamic_socd_cleaner_enable} != 0",
+                      "label": "\u5904\u4e8e\u5c425\u65f6SOCD\u662f\u5426\u5f00\u542f",
+                      "type": "toggle",
+                      "content": ["id_dynamic_socd_cleaner_layer_enable[5]", 12, 2, 5]
+                  }
+              ]
+          },
+          {
+              "label": "SOCD(0)",
+              "content": [
+                  {
+                      "label": "\u6309\u952e0",
+                      "type": "keycode",
+                      "content": ["id_dynamic_socd_cleaner_keycode_0[0]", 12, 3, 0]
+                  },
+                  {
+                      "label": "\u6309\u952e1",
+                      "type": "keycode",
+                      "content": ["id_dynamic_socd_cleaner_keycode_1[0]", 12, 4, 0]
+                  },
+                  {
+                      "label": "\u6a21\u5f0f",
+                      "type": "dropdown",
+                      "content": ["id_dynamic_socd_cleaner_mode[0]", 12, 5, 0],
+                      "options": [
+                          ["\u5173\u95ed", 0],
+                          ["\u540e\u6309\u4e0b\u4f18\u5148", 1],
+                          ["\u540c\u65f6\u6309\u4e0b\u5373\u540c\u65f6\u5f39\u8d77", 2],
+                          ["\u952e0\u4f18\u5148", 3],
+                          ["\u952e1\u4f18\u5148", 4]
+                      ]
+                  }
+              ]
+          },
+          {
+              "label": "SOCD(1)",
+              "content": [
+                  {
+                      "label": "\u6309\u952e0",
+                      "type": "keycode",
+                      "content": ["id_dynamic_socd_cleaner_keycode_0[1]", 12, 3, 1]
+                  },
+                  {
+                      "label": "\u6309\u952e1",
+                      "type": "keycode",
+                      "content": ["id_dynamic_socd_cleaner_keycode_1[1]", 12, 4, 1]
+                  },
+                  {
+                      "label": "\u6a21\u5f0f",
+                      "type": "dropdown",
+                      "content": ["id_dynamic_socd_cleaner_mode[1]", 12, 5, 1],
+                      "options": [
+                          ["\u5173\u95ed", 0],
+                          ["\u540e\u6309\u4e0b\u4f18\u5148", 1],
+                          ["\u540c\u65f6\u6309\u4e0b\u5373\u540c\u65f6\u5f39\u8d77", 2],
+                          ["\u952e0\u4f18\u5148", 3],
+                          ["\u952e1\u4f18\u5148", 4]
+                      ]
+                  }
+              ]
+          },
+          {
+              "label": "SOCD(2)",
+              "content": [
+                  {
+                      "label": "\u6309\u952e0",
+                      "type": "keycode",
+                      "content": ["id_dynamic_socd_cleaner_keycode_0[2]", 12, 3, 2]
+                  },
+                  {
+                      "label": "\u6309\u952e1",
+                      "type": "keycode",
+                      "content": ["id_dynamic_socd_cleaner_keycode_1[2]", 12, 4, 2]
+                  },
+                  {
+                      "label": "\u6a21\u5f0f",
+                      "type": "dropdown",
+                      "content": ["id_dynamic_socd_cleaner_mode[2]", 12, 5, 2],
+                      "options": [
+                          ["\u5173\u95ed", 0],
+                          ["\u540e\u6309\u4e0b\u4f18\u5148", 1],
+                          ["\u540c\u65f6\u6309\u4e0b\u5373\u540c\u65f6\u5f39\u8d77", 2],
+                          ["\u952e0\u4f18\u5148", 3],
+                          ["\u952e1\u4f18\u5148", 4]
+                      ]
+                  }
+              ]
+          },
+          {
+              "label": "SOCD(3)",
+              "content": [
+                  {
+                      "label": "\u6309\u952e0",
+                      "type": "keycode",
+                      "content": ["id_dynamic_socd_cleaner_keycode_0[3]", 12, 3, 3]
+                  },
+                  {
+                      "label": "\u6309\u952e1",
+                      "type": "keycode",
+                      "content": ["id_dynamic_socd_cleaner_keycode_1[3]", 12, 4, 3]
+                  },
+                  {
+                      "label": "\u6a21\u5f0f",
+                      "type": "dropdown",
+                      "content": ["id_dynamic_socd_cleaner_mode[3]", 12, 5, 3],
+                      "options": [
+                          ["\u5173\u95ed", 0],
+                          ["\u540e\u6309\u4e0b\u4f18\u5148", 1],
+                          ["\u540c\u65f6\u6309\u4e0b\u5373\u540c\u65f6\u5f39\u8d77", 2],
+                          ["\u952e0\u4f18\u5148", 3],
+                          ["\u952e1\u4f18\u5148", 4]
+                      ]
+                  }
+              ]
+          }
+      ]
+  }
+,      
+  {
+    "label": "RT",
+    "content": [
+        {
+            "label": "\u8bbe\u7f6e",
+            "content": [
+                {
+                    "label": "\u603b\u5f00\u5173",
+                    "type": "toggle",
+                    "content": ["id_dynamic_key_switch_enable", 13, 1]
+                },
+                {   "showIf": "{id_dynamic_key_switch_enable} != 0",
+                    "label": "\u5904\u4e8e\u5c420\u65f6RT\u662f\u5426\u5f00\u542f",
+                    "type": "toggle",
+                    "content": ["id_dynamic_key_switch_layer_enable[0]", 13, 2, 0]
+                },
+                {   "showIf": "{id_dynamic_key_switch_enable} != 0",
+                    "label": "\u5904\u4e8e\u5c421\u65f6RT\u662f\u5426\u5f00\u542f",
+                    "type": "toggle",
+                    "content": ["id_dynamic_key_switch_layer_enable[1]", 13, 2, 1]
+                },
+                {   "showIf": "{id_dynamic_key_switch_enable} != 0",
+                    "label": "\u5904\u4e8e\u5c422\u65f6RT\u662f\u5426\u5f00\u542f",
+                    "type": "toggle",
+                    "content": ["id_dynamic_key_switch_layer_enable[2]", 13, 2, 2]
+                },
+                {   "showIf": "{id_dynamic_key_switch_enable} != 0",
+                    "label": "\u5904\u4e8e\u5c423\u65f6RT\u662f\u5426\u5f00\u542f",
+                    "type": "toggle",
+                    "content": ["id_dynamic_key_switch_layer_enable[3]", 13, 2, 3]
+                },
+                {   "showIf": "{id_dynamic_key_switch_enable} != 0",
+                    "label": "\u5904\u4e8e\u5c424\u65f6RT\u662f\u5426\u5f00\u542f",
+                    "type": "toggle",
+                    "content": ["id_dynamic_key_switch_layer_enable[4]", 13, 2, 4]
+                },
+                {   "showIf": "{id_dynamic_key_switch_enable} != 0",
+                    "label": "\u5904\u4e8e\u5c425\u65f6RT\u662f\u5426\u5f00\u542f",
+                    "type": "toggle",
+                    "content": ["id_dynamic_key_switch_layer_enable[5]", 13, 2, 5]
+                }
+            ]
+        },
+        {
+            "label": "RT(0)",
+            "content": [
+                {
+                    "label": "\u6309\u4e0b\u89e6\u53d1\u952e",
+                    "type": "keycode",
+                    "content": ["id_dynamic_key_switch_keycode_0[0]", 13, 3, 0]
+                },
+                {
+                    "label": "\u62ac\u8d77\u89e6\u53d1\u952e",
+                    "type": "keycode",
+                    "content": ["id_dynamic_key_switch_keycode_1[0]", 13, 4, 0]
+                },
+                {
+                    "label": "\uff08\u62ac\u8d77\u89e6\u53d1\u952e\uff09\u4fdd\u6301\u65f6\u95f4",
+                    "type": "dropdown",
+                    "content": ["id_dynamic_key_switch_delay[0]", 13, 5, 0],
+                    "options": [
+                        ["1", 1],
+                        ["5", 5],
+                        ["10", 10],
+                        ["15", 15],
+                        ["20", 20],
+                        ["25", 25],
+                        ["30", 30],
+                        ["35", 35],
+                        ["40", 40],
+                        ["45", 45],
+                        ["50", 50],
+                        ["100", 100],
+                        ["150", 150],
+                        ["200", 200],
+                        ["250", 250]
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "RT(1)",
+            "content": [
+                {
+                    "label": "\u6309\u4e0b\u89e6\u53d1\u952e",
+                    "type": "keycode",
+                    "content": ["id_dynamic_key_switch_keycode_0[1]", 13, 3, 1]
+                },
+                {
+                    "label": "\u62ac\u8d77\u89e6\u53d1\u952e",
+                    "type": "keycode",
+                    "content": ["id_dynamic_key_switch_keycode_1[1]", 13, 4, 1]
+                },
+                {
+                    "label": "\uff08\u62ac\u8d77\u89e6\u53d1\u952e\uff09\u4fdd\u6301\u65f6\u95f4",
+                    "type": "dropdown",
+                    "content": ["id_dynamic_key_switch_delay[1]", 13, 5, 1],
+                    "options": [
+                        ["1", 1],
+                        ["5", 5],
+                        ["10", 10],
+                        ["15", 15],
+                        ["20", 20],
+                        ["25", 25],
+                        ["30", 30],
+                        ["35", 35],
+                        ["40", 40],
+                        ["45", 45],
+                        ["50", 50],
+                        ["100", 100],
+                        ["150", 150],
+                        ["200", 200],
+                        ["250", 250]
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "RT(2)",
+            "content": [
+                {
+                    "label": "\u6309\u4e0b\u89e6\u53d1\u952e",
+                    "type": "keycode",
+                    "content": ["id_dynamic_key_switch_keycode_0[2]", 13, 3, 2]
+                },
+                {
+                    "label": "\u62ac\u8d77\u89e6\u53d1\u952e",
+                    "type": "keycode",
+                    "content": ["id_dynamic_key_switch_keycode_1[2]", 13, 4, 2]
+                },
+                {
+                    "label": "\uff08\u62ac\u8d77\u89e6\u53d1\u952e\uff09\u4fdd\u6301\u65f6\u95f4",
+                    "type": "dropdown",
+                    "content": ["id_dynamic_key_switch_delay[2]", 13, 5, 2],
+                    "options": [
+                        ["1", 1],
+                        ["5", 5],
+                        ["10", 10],
+                        ["15", 15],
+                        ["20", 20],
+                        ["25", 25],
+                        ["30", 30],
+                        ["35", 35],
+                        ["40", 40],
+                        ["45", 45],
+                        ["50", 50],
+                        ["100", 100],
+                        ["150", 150],
+                        ["200", 200],
+                        ["250", 250]
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "RT(3)",
+            "content": [
+                {
+                    "label": "\u6309\u4e0b\u89e6\u53d1\u952e",
+                    "type": "keycode",
+                    "content": ["id_dynamic_key_switch_keycode_0[3]", 13, 3, 3]
+                },
+                {
+                    "label": "\u62ac\u8d77\u89e6\u53d1\u952e",
+                    "type": "keycode",
+                    "content": ["id_dynamic_key_switch_keycode_1[3]", 13, 4, 3]
+                },
+                {
+                    "label": "\uff08\u62ac\u8d77\u89e6\u53d1\u952e\uff09\u4fdd\u6301\u65f6\u95f4",
+                    "type": "dropdown",
+                    "content": ["id_dynamic_key_switch_delay[3]", 13, 5, 3],
+                    "options": [
+                        ["1", 1],
+                        ["5", 5],
+                        ["10", 10],
+                        ["15", 15],
+                        ["20", 20],
+                        ["25", 25],
+                        ["30", 30],
+                        ["35", 35],
+                        ["40", 40],
+                        ["45", 45],
+                        ["50", 50],
+                        ["100", 100],
+                        ["150", 150],
+                        ["200", 200],
+                        ["250", 250]
+                    ]
+                }
+            ]
+        }
+        
+    ]
+},
+{
+  "label": "\u6309\u952e\u8fde\u53d1",
+  "content": [
+      {
+          "label": "\u8bbe\u7f6e",
+          "content": [
+              {
+                  "label": "\u603b\u5f00\u5173",
+                  "type": "toggle",
+                  "content": ["id_dynamic_quick_repeat_enable", 14, 1]
+              },
+              {   
+                  "showIf": "{id_dynamic_quick_repeat_enable} != 0",
+                  "label": "\u5904\u4e8e\u5c42\u4f4d0\u65f6\u6309\u952e\u8fde\u53d1\u662f\u5426\u5f00\u542f",
+                  "type": "toggle",
+                  "content": ["id_dynamic_quick_repeat_layer_enable[0]", 14, 2, 0]
+              },
+              {   
+                  "showIf": "{id_dynamic_quick_repeat_enable} != 0",
+                  "label": "\u5904\u4e8e\u5c42\u4f4d1\u65f6\u6309\u952e\u8fde\u53d1\u662f\u5426\u5f00\u542f",
+                  "type": "toggle",
+                  "content": ["id_dynamic_quick_repeat_layer_enable[1]", 14, 2, 1]
+              },
+              {   
+                  "showIf": "{id_dynamic_quick_repeat_enable} != 0",
+                  "label": "\u5904\u4e8e\u5c42\u4f4d2\u65f6\u6309\u952e\u8fde\u53d1\u662f\u5426\u5f00\u542f",
+                  "type": "toggle",
+                  "content": ["id_dynamic_quick_repeat_layer_enable[2]", 14, 2, 2]
+              },
+              {   
+                  "showIf": "{id_dynamic_quick_repeat_enable} != 0",
+                  "label": "\u5904\u4e8e\u5c42\u4f4d3\u65f6\u6309\u952e\u8fde\u53d1\u662f\u5426\u5f00\u542f",
+                  "type": "toggle",
+                  "content": ["id_dynamic_quick_repeat_layer_enable[3]", 14, 2, 3]
+              },
+              {   
+                  "showIf": "{id_dynamic_quick_repeat_enable} != 0",
+                  "label": "\u5904\u4e8e\u5c42\u4f4d4\u65f6\u6309\u952e\u8fde\u53d1\u662f\u5426\u5f00\u542f",
+                  "type": "toggle",
+                  "content": ["id_dynamic_quick_repeat_layer_enable[4]", 14, 2, 4]
+              },
+              {   
+                  "showIf": "{id_dynamic_quick_repeat_enable} != 0",
+                  "label": "\u5904\u4e8e\u5c42\u4f4d5\u65f6\u6309\u952e\u8fde\u53d1\u662f\u5426\u5f00\u542f",
+                  "type": "toggle",
+                  "content": ["id_dynamic_quick_repeat_layer_enable[5]", 14, 2, 5]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(0)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[0]", 14, 3, 0]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[0]", 14, 4, 0],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[0]", 14, 5, 0],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[0]", 14, 6, 0],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[0]", 14, 7, 0],
+                  "type": "range",
+                  "options": [1, 255]
+                  
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[0]", 14, 8, 0],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(1)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[1]", 14, 3, 1]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[1]", 14, 4, 1],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[1]", 14, 5, 1],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[1]", 14, 6, 1],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[1]", 14, 7, 1],
+                  "type": "range",
+                  "options": [1, 255]
+                  
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[1]", 14, 8, 1],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(2)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[2]", 14, 3, 2]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[2]", 14, 4, 2],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[2]", 14, 5, 2],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[2]", 14, 6, 2],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[2]", 14, 7, 2],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[2]", 14, 8, 2],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(3)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[3]", 14, 3, 3]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[3]", 14, 4, 3],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[3]", 14, 5, 3],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[3]", 14, 6, 3],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[3]", 14, 7, 3],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[3]", 14, 8, 3],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(4)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[4]", 14, 3, 4]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[4]", 14, 4, 4],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[4]", 14, 5, 4],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[4]", 14, 6, 4],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[4]", 14, 7, 4],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[4]", 14, 8, 4],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(5)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[5]", 14, 3, 5]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[5]", 14, 4, 5],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[5]", 14, 5, 5],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[5]", 14, 6, 5],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[5]", 14, 7, 5],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[5]", 14, 8, 5],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(6)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[6]", 14, 3, 6]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[6]", 14, 4, 6],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[6]", 14, 5, 6],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[6]", 14, 6, 6],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[6]", 14, 7, 6],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[6]", 14, 8, 6],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(7)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[7]", 14, 3, 7]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[7]", 14, 4, 7],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[7]", 14, 5, 7],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[7]", 14, 6, 7],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[7]", 14, 7, 7],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[7]", 14, 8, 7],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(8)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[8]", 14, 3, 8]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[8]", 14, 4, 8],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[8]", 14, 5, 8],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[8]", 14, 6, 8],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[8]", 14, 7, 8],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[8]", 14, 8, 8],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      },
+      {
+          "label": "\u6309\u952e\u8fde\u53d1(9)",
+          "content": [
+              {
+                  "label": "\u8fde\u53d1\u952e",
+                  "type": "keycode",
+                  "content": ["id_dynamic_quick_repeat_keycode[9]", 14, 3, 9]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[9]", 14, 4, 9],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u4fdd\u6301\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[9]", 14, 5, 9],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0b\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_0[9]", 14, 6, 9],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u8fde\u53d1\u952e\u95f4\u9694\u65f6\u95f4\u4e0a\u9650",
+                  "content": ["id_dynamic_quick_repeat_hold_delay_1[9]", 14, 7, 9],
+                  "type": "range",
+                  "options": [1, 255]
+              },
+              {
+                  "label": "\u6a21\u5f0f",
+                  "type": "dropdown",
+                  "content": ["id_dynamic_quick_repeat_delay[9]", 14, 8, 9],
+                  "options": [
+                      ["\u5173\u95ed", 0],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 1],
+                      ["\u6309\u4f4f\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 2],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62", 3],
+                      ["\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 4],
+                      ["\u6309\u4e0b\u8fde\u53d1\uff0c\u677e\u5f00\u505c\u6b62\u3002\u53cc\u51fb\u8fde\u53d1\uff0c\u677e\u5f00\u4e0d\u505c\uff0c\u518d\u6b21\u6309\u4e0b\u505c\u6b62\u8fde\u53d1", 5]
+                  ]
+              }
+          ]
+      }
+      
+  ]
+}
+
+  
+  ],
+  "matrix": {"rows": 6, "cols": 17},
+  "layouts": {
+    "keymap": [
+        ["0,0",{"x":1},"0,2","0,3","0,4","0,5",{"x":0.5},"0,6","0,7","0,8","0,9",{"x":0.5},"0,10","0,11","0,12","0,13",{"x":0.25},"0,14","0,15","0,16"],
+        [{"y":0.5},"1,0","1,1","1,2","1,3","1,4","1,5","1,6","1,7","1,8","1,9","1,10","1,11","1,12",{"w":2},"1,13",{"x":0.25},"1,14","1,15","1,16"],
+        [{"w":1.5},"2,0","2,1","2,2","2,3","2,4","2,5","2,6","2,7","2,8","2,9","2,10","2,11","2,12",{"w":1.5},"2,13",{"x":0.25},"2,14","2,15","2,16"],
+        [{"w":1.75},"3,0","3,1","3,2","3,3","3,4","3,5","3,6","3,7","3,8","3,9","3,10","3,11",{"w":2.25},"3,13"],
+        [{"w":2.25},"4,0","4,2","4,3","4,4","4,5","4,6","4,7","4,8","4,9","4,10","4,11",{"w":2.75},"4,12",{"x":1.25},"4,15",{"x":0.25,"w":0.75,"h":0.75},"4,16"],
+        [{"w":1.25},"5,0",{"w":1.25},"5,1",{"w":1.25},"5,2",{"w":6.25},"5,6",{"w":1.25},"5,10",{"w":1.25},"5,11",{"w":1.25},"5,12",{"w":1.25},"5,13",{"x":0.25},"5,14","5,15","5,16"]
+    ]
+    }
+}
