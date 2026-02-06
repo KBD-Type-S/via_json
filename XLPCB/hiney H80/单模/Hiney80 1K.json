@@ -1,5 +1,5 @@
 {
-    "name": "Hiney80",
+    "name": "Hiney H80",
     "vendorId": "0xCD80",
     "productId": "0xFE01",
     "menus": ["qmk_rgblight"],
@@ -17,8 +17,8 @@
           "labels":[
               "Split Backspace",
               "ISO",
-              "Split R shiift",
-              "Split L shiift",
+              "Split R shift",
+              "Split L shift",
               ["default1","F12","F13"],
               ["default2","6.25U","7U" ]
              ],
